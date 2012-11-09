@@ -41,6 +41,7 @@
 #include "TextureCacheTest/TextureCacheTest.h"
 #include "NodeTest/NodeTest.h"
 #include "ShaderTest/ShaderTest.h"
+#include "PhotonTest/PhotonTest.h"
 
 #if (CC_TARGET_PLATFORM != CC_PLATFORM_MARMALADE)
     #include "ChipmunkAccelTouchTest/ChipmunkAccelTouchTest.h"
@@ -57,7 +58,8 @@
 
 enum
 {
-    TEST_ACTIONS = 0,
+    TEST_PHOTON = 0,
+    TEST_ACTIONS,
     TEST_TRANSITIONS,
     TEST_PROGRESS_ACTIONS,
     TEST_EFFECTS,
@@ -104,6 +106,7 @@ enum
 };
 
 const std::string g_aTestNames[TESTS_COUNT] = {
+    "PhotonTest",
     "ActionsTest",
     "TransitionsTest",
     "ActionsProgressTest",

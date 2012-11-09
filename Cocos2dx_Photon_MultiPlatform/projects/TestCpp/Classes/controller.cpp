@@ -122,6 +122,9 @@ static TestScene* CreateTestScene(int nIdx)
     case TEST_MUTITOUCH:
         pScene = new MutiTouchTestScene();
         break;
+    case TEST_PHOTON:
+        pScene = new PhotonTestScene();
+        break;
     default:
         break;
     }
