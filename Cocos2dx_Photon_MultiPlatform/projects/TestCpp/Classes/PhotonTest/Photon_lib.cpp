@@ -35,7 +35,7 @@ void PhotonLib::update(void)
 			sendData();
 			break;*/
         case State::CONNECTING:
-			mLitePeer->connect(L"192.168.1.4:5055");
+			mLitePeer->connect(L"localhost:5055");
             mState = State::WAITING;
 			break;
 		case State::CONNECTED:
