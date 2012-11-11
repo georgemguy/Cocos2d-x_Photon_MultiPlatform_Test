@@ -241,6 +241,10 @@
 		67522DE816438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE016438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a */; };
 		67522DE916438A3600A391F6 /* libPhoton-c_release_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE116438A3600A391F6 /* libPhoton-c_release_iphoneos.a */; };
 		67522DEA16438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE216438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a */; };
+		676823DB1647857B00EF1D53 /* ControlPhoton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676823DA1647857B00EF1D53 /* ControlPhoton.cpp */; };
+		67D34B4416462C7D0074041C /* PhotonTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B4216462C7D0074041C /* PhotonTest.cpp */; };
+		67D34B54164726F20074041C /* Photon_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B50164726F20074041C /* Photon_lib.cpp */; };
+		67D34B56164726F20074041C /* StdIO_UIListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B52164726F20074041C /* StdIO_UIListener.cpp */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
 		789B560D15197BE00038CD1E /* animations in Resources */ = {isa = PBXBuildFile; fileRef = 789B560C15197BE00038CD1E /* animations */; };
 		789B560F15197BF30038CD1E /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 789B560E15197BF30038CD1E /* fonts */; };
@@ -871,6 +875,15 @@
 		67522DE016438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_debug_iphonesimulator.a"; sourceTree = "<group>"; };
 		67522DE116438A3600A391F6 /* libPhoton-c_release_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_release_iphoneos.a"; sourceTree = "<group>"; };
 		67522DE216438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_release_iphonesimulator.a"; sourceTree = "<group>"; };
+		676823D9164781CF00EF1D53 /* ControlPhoton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlPhoton.h; sourceTree = "<group>"; };
+		676823DA1647857B00EF1D53 /* ControlPhoton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControlPhoton.cpp; sourceTree = "<group>"; };
+		67D34B4216462C7D0074041C /* PhotonTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhotonTest.cpp; sourceTree = "<group>"; };
+		67D34B4316462C7D0074041C /* PhotonTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotonTest.h; sourceTree = "<group>"; };
+		67D34B4C164726E20074041C /* Photon_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photon_lib.h; sourceTree = "<group>"; };
+		67D34B4D164726E20074041C /* StdIO_UIListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdIO_UIListener.h; sourceTree = "<group>"; };
+		67D34B4E164726E20074041C /* UIListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIListener.h; sourceTree = "<group>"; };
+		67D34B50164726F20074041C /* Photon_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Photon_lib.cpp; sourceTree = "<group>"; };
+		67D34B52164726F20074041C /* StdIO_UIListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StdIO_UIListener.cpp; sourceTree = "<group>"; };
 		7855E0DF153FEF240059DD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		789B560C15197BE00038CD1E /* animations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animations; sourceTree = "<group>"; };
 		789B560E15197BF30038CD1E /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
@@ -1043,6 +1056,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				67D34B4116462C200074041C /* PhotonTest */,
 				15AA9F3A15B7EF960033D6C2 /* AppDelegate.cpp */,
 				15AA9CAA15B7EC460033D6C2 /* controller.cpp */,
 				15AA9D3115B7EC460033D6C2 /* testBasic.cpp */,
@@ -2401,6 +2415,23 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		67D34B4116462C200074041C /* PhotonTest */ = {
+			isa = PBXGroup;
+			children = (
+				67D34B50164726F20074041C /* Photon_lib.cpp */,
+				67D34B52164726F20074041C /* StdIO_UIListener.cpp */,
+				67D34B4C164726E20074041C /* Photon_lib.h */,
+				67D34B4D164726E20074041C /* StdIO_UIListener.h */,
+				67D34B4E164726E20074041C /* UIListener.h */,
+				67D34B4216462C7D0074041C /* PhotonTest.cpp */,
+				67D34B4316462C7D0074041C /* PhotonTest.h */,
+				676823D9164781CF00EF1D53 /* ControlPhoton.h */,
+				676823DA1647857B00EF1D53 /* ControlPhoton.cpp */,
+			);
+			name = PhotonTest;
+			path = ../Classes/PhotonTest;
+			sourceTree = "<group>";
+		};
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -2801,6 +2832,10 @@
 				15384F5F1611B3380021DC07 /* CCScale9Sprite.cpp in Sources */,
 				15384F661611B38A0021DC07 /* CCControlPotentiometerTest.cpp in Sources */,
 				15384F671611B38A0021DC07 /* CCControlStepperTest.cpp in Sources */,
+				67D34B4416462C7D0074041C /* PhotonTest.cpp in Sources */,
+				67D34B54164726F20074041C /* Photon_lib.cpp in Sources */,
+				67D34B56164726F20074041C /* StdIO_UIListener.cpp in Sources */,
+				676823DB1647857B00EF1D53 /* ControlPhoton.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
