@@ -9,97 +9,21 @@ LOCAL_MODULE_FILENAME := libtestcppcommon
 LOCAL_PHOTON_ROOT := $(LOCAL_PATH)/../../Photon-AndroidNDK_v3-0-4-0_SDK
 
 LOCAL_SRC_FILES := \
-Classes/AccelerometerTest/AccelerometerTest.cpp \
-Classes/ActionManagerTest/ActionManagerTest.cpp \
-Classes/ActionsTest/ActionsTest.cpp \
-Classes/ActionsEaseTest/ActionsEaseTest.cpp \
-Classes/ActionsProgressTest/ActionsProgressTest.cpp \
-Classes/Box2DTest/Box2dTest.cpp \
-Classes/Box2DTestBed/Box2dView.cpp \
-Classes/Box2DTestBed/GLES-Render.cpp \
-Classes/Box2DTestBed/Test.cpp \
-Classes/Box2DTestBed/TestEntries.cpp \
-Classes/BugsTest/Bug-1159.cpp \
-Classes/BugsTest/Bug-1174.cpp \
-Classes/BugsTest/Bug-350.cpp \
-Classes/BugsTest/Bug-422.cpp \
-Classes/BugsTest/Bug-624.cpp \
-Classes/BugsTest/Bug-886.cpp \
-Classes/BugsTest/Bug-899.cpp \
-Classes/BugsTest/Bug-914.cpp \
-Classes/BugsTest/BugsTest.cpp \
-Classes/BugsTest/Bug-458/Bug-458.cpp \
-Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp \
-Classes/ChipmunkAccelTouchTest/ChipmunkAccelTouchTest.cpp \
-Classes/ClickAndMoveTest/ClickAndMoveTest.cpp \
-Classes/CocosDenshionTest/CocosDenshionTest.cpp \
-Classes/CurlTest/CurlTest.cpp \
-Classes/CurrentLanguageTest/CurrentLanguageTest.cpp \
-Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp \
-Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp \
-Classes/EffectsTest/EffectsTest.cpp \
-Classes/ExtensionsTest/ExtensionsTest.cpp \
-Classes/ExtensionsTest/NotificationCenterTest/NotificationCenterTest.cpp \
-Classes/ExtensionsTest/ControlExtensionTest/CCControlScene.cpp \
-Classes/ExtensionsTest/ControlExtensionTest/CCControlSceneManager.cpp \
-Classes/ExtensionsTest/ControlExtensionTest/CCControlButtonTest/CCControlButtonTest.cpp \
-Classes/ExtensionsTest/ControlExtensionTest/CCControlColourPicker/CCControlColourPickerTest.cpp \
-Classes/ExtensionsTest/ControlExtensionTest/CCControlPotentiometerTest/CCControlPotentiometerTest.cpp \
-Classes/ExtensionsTest/ControlExtensionTest/CCControlSliderTest/CCControlSliderTest.cpp \
-Classes/ExtensionsTest/ControlExtensionTest/CCControlStepperTest/CCControlStepperTest.cpp \
-Classes/ExtensionsTest/ControlExtensionTest/CCControlSwitchTest/CCControlSwitchTest.cpp \
-Classes/ExtensionsTest/CocosBuilderTest/CocosBuilderTest.cpp \
-Classes/ExtensionsTest/CocosBuilderTest/HelloCocosBuilder/HelloCocosBuilderLayer.cpp \
-Classes/ExtensionsTest/CocosBuilderTest/TestHeader/TestHeaderLayer.cpp \
-Classes/ExtensionsTest/CocosBuilderTest/ButtonTest/ButtonTestLayer.cpp \
-Classes/ExtensionsTest/CocosBuilderTest/MenuTest/MenuTestLayer.cpp \
-Classes/ExtensionsTest/CocosBuilderTest/AnimationsTest/AnimationsTestLayer.cpp \
-Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp \
-Classes/ExtensionsTest/EditBoxTest/EditBoxTest.cpp \
-Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp \
-Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp \
-Classes/FontTest/FontTest.cpp \
-Classes/IntervalTest/IntervalTest.cpp \
-Classes/KeypadTest/KeypadTest.cpp \
-Classes/LabelTest/LabelTest.cpp \
-Classes/LayerTest/LayerTest.cpp \
-Classes/NodeTest/NodeTest.cpp \
-Classes/TextInputTest/TextInputTest.cpp \
-Classes/MenuTest/MenuTest.cpp \
-Classes/MotionStreakTest/MotionStreakTest.cpp \
-Classes/MutiTouchTest/MutiTouchTest.cpp \
-Classes/ParallaxTest/ParallaxTest.cpp \
-Classes/ParticleTest/ParticleTest.cpp \
-Classes/PerformanceTest/PerformanceNodeChildrenTest.cpp \
-Classes/PerformanceTest/PerformanceParticleTest.cpp \
-Classes/PerformanceTest/PerformanceSpriteTest.cpp \
-Classes/PerformanceTest/PerformanceTest.cpp \
-Classes/PerformanceTest/PerformanceTextureTest.cpp \
-Classes/PerformanceTest/PerformanceTouchesTest.cpp \
-Classes/RenderTextureTest/RenderTextureTest.cpp \
-Classes/RotateWorldTest/RotateWorldTest.cpp \
-Classes/SceneTest/SceneTest.cpp \
-Classes/SchedulerTest/SchedulerTest.cpp \
-Classes/ShaderTest/ShaderTest.cpp \
-Classes/SpriteTest/SpriteTest.cpp \
-Classes/TextureCacheTest/TextureCacheTest.cpp \
-Classes/Texture2dTest/Texture2dTest.cpp \
-Classes/TileMapTest/TileMapTest.cpp \
-Classes/TouchesTest/Ball.cpp \
-Classes/TouchesTest/Paddle.cpp \
-Classes/TouchesTest/TouchesTest.cpp \
-Classes/TransitionsTest/TransitionsTest.cpp \
-Classes/UserDefaultTest/UserDefaultTest.cpp \
-Classes/ZwoptexTest/ZwoptexTest.cpp \
 Classes/PhotonTest/Photon_lib.cpp \
 Classes/PhotonTest/PhotonTest.cpp \
 Classes/PhotonTest/StdIO_UIListener.cpp \
 Classes/PhotonTest/ControlPhoton.cpp \
+Classes/PhotonLoadBalancingTest/NetworkLogic.cpp \
+Classes/PhotonLoadBalancingTest/CCLobbyView.cpp \
+Classes/PhotonLoadBalancingTest/CCNetworkLogic.cpp \
+Classes/PhotonLoadBalancingTest/PhotonLoadBalancingTest.cpp \
+Classes/PhotonLoadBalancingTest/CCRoomTableCell.cpp \
+Classes/PhotonLoadBalancingTest/CCLobbyTableCell.cpp \
 Classes/controller.cpp \
 Classes/testBasic.cpp \
 Classes/AppDelegate.cpp 
 
-LOCAL_CFLAGS := -DEG_DEBUGGER -D__STDINT_LIMITS -D_EG_ANDROID_PLATFORM -lstdc++
+#LOCAL_CFLAGS := -DEG_DEBUGGER -D__STDINT_LIMITS -D_EG_ANDROID_PLATFORM -lstdc++
 
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2dx_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocosdenshion_static
@@ -107,7 +31,7 @@ LOCAL_WHOLE_STATIC_LIBRARIES += box2d_static
 LOCAL_WHOLE_STATIC_LIBRARIES += chipmunk_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos_extension_static
 
-LOCAL_STATIC_LIBRARIES := photon-cpp-static-prebuilt common-cpp-static-prebuilt photon-c-static-prebuilt
+LOCAL_STATIC_LIBRARIES := photon-cpp-static-prebuilt common-cpp-static-prebuilt photon-c-static-prebuilt loadbalancing-cpp-static-prebuilt
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)
             
@@ -131,4 +55,7 @@ $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Photon-c)
 $(call import-module,photon-c-prebuilt)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Photon-cpp/android/src)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Photon-cpp)
-$(call import-module,photon-cpp-prebuilt)
+#$(call import-module,photon-cpp-prebuilt)
+#$(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/LoadBalancing-cpp/android/src)
+#$(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/LoadBalancing-cpp)
+#$(call import-module,loadbalancing-cpp-prebuilt)

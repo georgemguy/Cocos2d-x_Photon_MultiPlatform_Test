@@ -9,6 +9,7 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonTest/Photon_lib.
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonPlatformLayer.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platform_definition.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/memory.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/string.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
@@ -163,6 +164,8 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonTest/Photon_lib.
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platform_definition.h:
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/memory.h:
 

@@ -339,215 +339,15 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/support/data_support/uthash.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/testResource.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/tests.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsTest/ActionsTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TransitionsTest/TransitionsTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TransitionsTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsProgressTest/ActionsProgressTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsProgressTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/EffectsTest/EffectsTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/EffectsTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ClickAndMoveTest/ClickAndMoveTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ClickAndMoveTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/RotateWorldTest/RotateWorldTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/RotateWorldTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ParticleTest/ParticleTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ParticleTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsEaseTest/ActionsEaseTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsEaseTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MotionStreakTest/MotionStreakTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MotionStreakTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/DrawPrimitivesTest/DrawPrimitivesTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/DrawPrimitivesTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TouchesTest/TouchesTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TouchesTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MenuTest/MenuTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MenuTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionManagerTest/ActionManagerTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionManagerTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/LayerTest/LayerTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/LayerTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SceneTest/SceneTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SceneTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ParallaxTest/ParallaxTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ParallaxTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TileMapTest/TileMapTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TileMapTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/IntervalTest/IntervalTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/IntervalTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/LabelTest/LabelTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/LabelTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TextInputTest/TextInputTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TextInputTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SpriteTest/SpriteTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SpriteTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SchedulerTest/SchedulerTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/cocos-ext.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBFileLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBReader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBMemberVariableAssigner.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBReader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSelectorResolver.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlButtonLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlUtils.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlButton.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLabelBMFontLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLabelTTFLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerColorLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerGradientLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemImageLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoaderLibrary.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoaderListener.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCParticleSystemQuadLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScale9SpriteLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScale9SpriteLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScrollViewLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCScrollView/CCScrollView.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCSpriteLoader.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBAnimationManager.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequence.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBValue.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequenceProperty.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBKeyframe.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBKeyframe.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequence.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequenceProperty.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBValue.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCData.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNode+CCBRelativePositioning.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCScale9Sprite.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControl.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlButton.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlColourPicker.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlUtils.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlHuePicker.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCInvocation.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlPotentiometer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSlider.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlStepper.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCScrollView.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCTableView.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCScrollView.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCTableViewCell.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCSorting.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCEditBox/CCEditBox.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCEditBox/../CCControlExtension/CCControlExtensions.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpClient.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SchedulerTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/RenderTextureTest/RenderTextureTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/RenderTextureTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Box2DTest/Box2dTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Box2D.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2Settings.h \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/cassert \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/cmath \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2Draw.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2Math.h \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/limits \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2Timer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2CircleShape.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2Shape.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2BlockAllocator.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2Collision.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2EdgeShape.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2ChainShape.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2PolygonShape.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2BroadPhase.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2DynamicTree.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2GrowableStack.h \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/cstring \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/algorithm \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_algo.h \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_heap.h \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_heap.c \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_algo.c \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2Distance.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2TimeOfImpact.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2Body.h \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/memory \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h \
- /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2Fixture.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2WorldCallbacks.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2TimeStep.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2World.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2StackAllocator.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2ContactManager.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Contacts/b2Contact.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2DistanceJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2FrictionJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2GearJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2WheelJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2MouseJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2PrismaticJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2PulleyJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2RevoluteJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2RopeJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2WeldJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Box2DTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Box2DTestBed/Box2dView.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Box2DTestBed/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/EffectsAdvancedTest/EffectsAdvancedTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/EffectsAdvancedTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/AccelerometerTest/AccelerometerTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/AccelerometerTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/KeypadTest/KeypadTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/KeypadTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PerformanceTest/PerformanceTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PerformanceTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ZwoptexTest/ZwoptexTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ZwoptexTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CocosDenshionTest/CocosDenshionTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CocosDenshionTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CurlTest/CurlTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CurlTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/UserDefaultTest/UserDefaultTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/UserDefaultTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/BugsTest/BugsTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/BugsTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Texture2dTest/Texture2dTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Texture2dTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/FontTest/FontTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/FontTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CurrentLanguageTest/CurrentLanguageTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CurrentLanguageTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TextureCacheTest/TextureCacheTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TextureCacheTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/NodeTest/NodeTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/NodeTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ShaderTest/ShaderTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ShaderTest/../testBasic.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/PhotonTest.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/../testBasic.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/StdIO_UIListener.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/UIListener.h \
+ /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/memory \
+ /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h \
+ /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c \
+ /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h \
+ /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/Photon_lib.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/LitePeer.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonPeer.h \
@@ -557,6 +357,7 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonPlatformLayer.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platform_definition.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/wchar.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/arpa/inet.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/netinet/in.h \
@@ -631,6 +432,8 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationRequest.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/PhotonLoadBalancingTest.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/../testBasic.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ChipmunkAccelTouchTest/ChipmunkAccelTouchTest.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/chipmunk.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/chipmunk_types.h \
@@ -1338,416 +1141,6 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/tests.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsTest/ActionsTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TransitionsTest/TransitionsTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TransitionsTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsProgressTest/ActionsProgressTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsProgressTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/EffectsTest/EffectsTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/EffectsTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ClickAndMoveTest/ClickAndMoveTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ClickAndMoveTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/RotateWorldTest/RotateWorldTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/RotateWorldTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ParticleTest/ParticleTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ParticleTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsEaseTest/ActionsEaseTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionsEaseTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MotionStreakTest/MotionStreakTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MotionStreakTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/DrawPrimitivesTest/DrawPrimitivesTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/DrawPrimitivesTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TouchesTest/TouchesTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TouchesTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MenuTest/MenuTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MenuTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionManagerTest/ActionManagerTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ActionManagerTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/LayerTest/LayerTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/LayerTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SceneTest/SceneTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SceneTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ParallaxTest/ParallaxTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ParallaxTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TileMapTest/TileMapTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TileMapTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/IntervalTest/IntervalTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/IntervalTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/LabelTest/LabelTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/LabelTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TextInputTest/TextInputTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TextInputTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SpriteTest/SpriteTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SpriteTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SchedulerTest/SchedulerTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/cocos-ext.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBFileLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBReader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBMemberVariableAssigner.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBReader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSelectorResolver.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlButtonLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlUtils.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlButton.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLabelBMFontLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLabelTTFLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerColorLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerGradientLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemImageLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoaderLibrary.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoaderListener.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCParticleSystemQuadLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScale9SpriteLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScale9SpriteLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScrollViewLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCScrollView/CCScrollView.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCSpriteLoader.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBAnimationManager.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequence.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBValue.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequenceProperty.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBKeyframe.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBKeyframe.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequence.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequenceProperty.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBValue.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCData.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNode+CCBRelativePositioning.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCScale9Sprite.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControl.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlButton.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlColourPicker.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlUtils.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlHuePicker.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCInvocation.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlPotentiometer.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSlider.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlStepper.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCScrollView.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCTableView.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCScrollView.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCTableViewCell.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCSorting.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCEditBox/CCEditBox.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCEditBox/../CCControlExtension/CCControlExtensions.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpClient.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/SchedulerTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/RenderTextureTest/RenderTextureTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/RenderTextureTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Box2DTest/Box2dTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Box2D.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2Settings.h:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/cassert:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/cmath:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2Draw.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2Math.h:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/limits:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2Timer.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2CircleShape.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2Shape.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2BlockAllocator.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2Collision.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2EdgeShape.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2ChainShape.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/Shapes/b2PolygonShape.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2BroadPhase.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2DynamicTree.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2GrowableStack.h:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/cstring:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/algorithm:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_algo.h:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_heap.h:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_heap.c:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_algo.c:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2Distance.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Collision/b2TimeOfImpact.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2Body.h:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/memory:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h:
-
-/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2Fixture.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2WorldCallbacks.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2TimeStep.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2World.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Common/b2StackAllocator.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/b2ContactManager.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Contacts/b2Contact.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2DistanceJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2FrictionJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2GearJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2WheelJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2MouseJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2PrismaticJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2PulleyJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2RevoluteJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2RopeJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/Box2D/../Box2D/Dynamics/Joints/b2WeldJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Box2DTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Box2DTestBed/Box2dView.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Box2DTestBed/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/EffectsAdvancedTest/EffectsAdvancedTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/EffectsAdvancedTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/AccelerometerTest/AccelerometerTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/AccelerometerTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/KeypadTest/KeypadTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/KeypadTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PerformanceTest/PerformanceTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PerformanceTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ZwoptexTest/ZwoptexTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ZwoptexTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CocosDenshionTest/CocosDenshionTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CocosDenshionTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CurlTest/CurlTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CurlTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/UserDefaultTest/UserDefaultTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/UserDefaultTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/BugsTest/BugsTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/BugsTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Texture2dTest/Texture2dTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/Texture2dTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/FontTest/FontTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/FontTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CurrentLanguageTest/CurrentLanguageTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/CurrentLanguageTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TextureCacheTest/TextureCacheTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/TextureCacheTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/NodeTest/NodeTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/NodeTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ShaderTest/ShaderTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ShaderTest/../testBasic.h:
-
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/PhotonTest.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/../testBasic.h:
@@ -1755,6 +1148,16 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/StdIO_UIListener.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/UIListener.h:
+
+/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/memory:
+
+/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h:
+
+/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c:
+
+/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h:
+
+/Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonTest/Photon_lib.h:
 
@@ -1773,6 +1176,8 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platform_definition.h:
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/wchar.h:
 
@@ -1921,6 +1326,10 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationRequest.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/PhotonLoadBalancingTest.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/../testBasic.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ChipmunkAccelTouchTest/ChipmunkAccelTouchTest.h:
 

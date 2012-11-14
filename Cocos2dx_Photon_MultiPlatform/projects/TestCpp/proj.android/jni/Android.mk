@@ -11,15 +11,13 @@ LOCAL_SRC_FILES := testcpp/main.cpp
 LOCAL_PHOTON_ROOT := $(LOCAL_PATH)/../../../../Photon-AndroidNDK_v3-0-4-0_SDK
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 
-LOCAL_CFLAGS := -DEG_DEBUGGER -D__STDINT_LIMITS -D_EG_ANDROID_PLATFORM -lstdc++
-
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos_testcpp_common
 LOCAL_WHOLE_STATIC_LIBRARIES += cocos2dx_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocosdenshion_static
 LOCAL_WHOLE_STATIC_LIBRARIES += box2d_static
 LOCAL_WHOLE_STATIC_LIBRARIES += chipmunk_static
 
-LOCAL_STATIC_LIBRARIES := photon-cpp-static-prebuilt common-cpp-static-prebuilt photon-c-static-prebuilt
+LOCAL_STATIC_LIBRARIES := photon-cpp-static-prebuilt common-cpp-static-prebuilt photon-c-static-prebuilt loadbalancing-cpp-static-prebuilt
 
 include $(BUILD_SHARED_LIBRARY)
 
@@ -44,3 +42,6 @@ $(call import-module,photon-c-prebuilt)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Photon-cpp/android/src)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Photon-cpp)
 $(call import-module,photon-cpp-prebuilt)
+$(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/LoadBalancing-cpp/android/src)
+$(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/LoadBalancing-cpp)
+$(call import-module,loadbalancing-cpp-prebuilt)

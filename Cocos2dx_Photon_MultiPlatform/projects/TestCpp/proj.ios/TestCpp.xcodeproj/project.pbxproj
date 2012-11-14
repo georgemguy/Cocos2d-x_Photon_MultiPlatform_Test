@@ -225,6 +225,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		674A901E1652E7F2000A4D81 /* NetworkLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 674A901D1652E7F2000A4D81 /* NetworkLogic.cpp */; };
 		675225A61643786B00A391F6 /* libCommon-cpp_debug_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 675218A11643786300A391F6 /* libCommon-cpp_debug_iphoneos.a */; };
 		675225A71643786B00A391F6 /* libCommon-cpp_debug_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 675218A21643786300A391F6 /* libCommon-cpp_debug_iphonesimulator.a */; };
 		675225A81643786B00A391F6 /* libCommon-cpp_release_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 675218A31643786300A391F6 /* libCommon-cpp_release_iphoneos.a */; };
@@ -241,10 +242,22 @@
 		67522DE816438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE016438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a */; };
 		67522DE916438A3600A391F6 /* libPhoton-c_release_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE116438A3600A391F6 /* libPhoton-c_release_iphoneos.a */; };
 		67522DEA16438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE216438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a */; };
+		675A118D165212FF006E4B35 /* CCRoomTableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675A118C165212FE006E4B35 /* CCRoomTableCell.cpp */; };
+		675A119016521356006E4B35 /* CCLobbyTableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675A118F16521355006E4B35 /* CCLobbyTableCell.cpp */; };
 		676823DB1647857B00EF1D53 /* ControlPhoton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676823DA1647857B00EF1D53 /* ControlPhoton.cpp */; };
 		67D34B4416462C7D0074041C /* PhotonTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B4216462C7D0074041C /* PhotonTest.cpp */; };
 		67D34B54164726F20074041C /* Photon_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B50164726F20074041C /* Photon_lib.cpp */; };
 		67D34B56164726F20074041C /* StdIO_UIListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B52164726F20074041C /* StdIO_UIListener.cpp */; };
+		67EE6EC21651EB79005E1C24 /* PhotonLoadBalancingTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EE6EBA1651EB79005E1C24 /* PhotonLoadBalancingTest.cpp */; };
+		67EE6EDE1651EC2B005E1C24 /* CCLobbyView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EE6ED71651EC2B005E1C24 /* CCLobbyView.cpp */; };
+		67EE6EDF1651EC2B005E1C24 /* CCNetworkLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EE6ED81651EC2B005E1C24 /* CCNetworkLogic.cpp */; };
+		67EE6F001651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EE6EF51651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphoneos.a */; };
+		67EE6F011651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EE6EF61651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphonesimulator.a */; };
+		67EE6F021651ED66005E1C24 /* libLoadBalancing-cpp_release_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EE6EF71651ED66005E1C24 /* libLoadBalancing-cpp_release_iphoneos.a */; };
+		67EE6F031651ED66005E1C24 /* LoadBalancingClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EE6EFC1651ED66005E1C24 /* LoadBalancingClient.cpp */; };
+		67EE6F041651ED66005E1C24 /* LoadBalancingPeer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EE6EFD1651ED66005E1C24 /* LoadBalancingPeer.cpp */; };
+		67EE6F051651ED66005E1C24 /* LoadBalancingPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EE6EFE1651ED66005E1C24 /* LoadBalancingPlayer.cpp */; };
+		67EE6F061651ED66005E1C24 /* LoadBalancingRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EE6EFF1651ED66005E1C24 /* LoadBalancingRoom.cpp */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
 		789B560D15197BE00038CD1E /* animations in Resources */ = {isa = PBXBuildFile; fileRef = 789B560C15197BE00038CD1E /* animations */; };
 		789B560F15197BF30038CD1E /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 789B560E15197BF30038CD1E /* fonts */; };
@@ -294,6 +307,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1551A33E158F2AB200E66CFE;
 			remoteInfo = cocos2dx;
+		};
+		67EE6F0A1651ED67005E1C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EE6EF81651ED66005E1C24 /* LoadBalancing-cpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E99AB53D14C5B84300F08070;
+			remoteInfo = "LoadBalancing-cpp-iphone";
+		};
+		67EE6F0C1651ED67005E1C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EE6EF81651ED66005E1C24 /* LoadBalancing-cpp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E99AB57914C5B90900F08070;
+			remoteInfo = "LoadBalancing-cpp-macos";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -789,6 +816,8 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iphone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iphone_Prefix.pch; path = ../iphone_Prefix.pch; sourceTree = "<group>"; };
+		674A901D1652E7F2000A4D81 /* NetworkLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkLogic.cpp; sourceTree = "<group>"; };
+		674A90231653418C000A4D81 /* GGUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGUtil.h; path = ../Classes/PhotonLoadBalancingTest/GGUtil.h; sourceTree = "<group>"; };
 		6752187F1643786300A391F6 /* ANSIString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSIString.h; sourceTree = "<group>"; };
 		675218801643786300A391F6 /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		675218811643786300A391F6 /* BaseCharString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCharString.h; sourceTree = "<group>"; };
@@ -875,6 +904,10 @@
 		67522DE016438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_debug_iphonesimulator.a"; sourceTree = "<group>"; };
 		67522DE116438A3600A391F6 /* libPhoton-c_release_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_release_iphoneos.a"; sourceTree = "<group>"; };
 		67522DE216438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_release_iphonesimulator.a"; sourceTree = "<group>"; };
+		675A118B165212EE006E4B35 /* CCRoomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRoomTableCell.h; sourceTree = "<group>"; };
+		675A118C165212FE006E4B35 /* CCRoomTableCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRoomTableCell.cpp; sourceTree = "<group>"; };
+		675A118E1652133E006E4B35 /* CCLobbyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLobbyTableCell.h; sourceTree = "<group>"; };
+		675A118F16521355006E4B35 /* CCLobbyTableCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLobbyTableCell.cpp; sourceTree = "<group>"; };
 		676823D9164781CF00EF1D53 /* ControlPhoton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlPhoton.h; sourceTree = "<group>"; };
 		676823DA1647857B00EF1D53 /* ControlPhoton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControlPhoton.cpp; sourceTree = "<group>"; };
 		67D34B4216462C7D0074041C /* PhotonTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhotonTest.cpp; sourceTree = "<group>"; };
@@ -884,6 +917,35 @@
 		67D34B4E164726E20074041C /* UIListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIListener.h; sourceTree = "<group>"; };
 		67D34B50164726F20074041C /* Photon_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Photon_lib.cpp; sourceTree = "<group>"; };
 		67D34B52164726F20074041C /* StdIO_UIListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StdIO_UIListener.cpp; sourceTree = "<group>"; };
+		67EE6EBA1651EB79005E1C24 /* PhotonLoadBalancingTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhotonLoadBalancingTest.cpp; sourceTree = "<group>"; };
+		67EE6EBB1651EB79005E1C24 /* PhotonLoadBalancingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotonLoadBalancingTest.h; sourceTree = "<group>"; };
+		67EE6ED31651EC2B005E1C24 /* NetworkLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkLogic.h; sourceTree = "<group>"; };
+		67EE6ED41651EC2B005E1C24 /* OutputListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputListener.h; sourceTree = "<group>"; };
+		67EE6ED61651EC2B005E1C24 /* CCLobbyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLobbyView.h; sourceTree = "<group>"; };
+		67EE6ED71651EC2B005E1C24 /* CCLobbyView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLobbyView.cpp; sourceTree = "<group>"; };
+		67EE6ED81651EC2B005E1C24 /* CCNetworkLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCNetworkLogic.cpp; sourceTree = "<group>"; };
+		67EE6ED91651EC2B005E1C24 /* CCNetworkLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNetworkLogic.h; sourceTree = "<group>"; };
+		67EE6EE41651ED66005E1C24 /* ErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCode.h; sourceTree = "<group>"; };
+		67EE6EE51651ED66005E1C24 /* PeerStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeerStates.h; sourceTree = "<group>"; };
+		67EE6EE81651ED66005E1C24 /* EventCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCode.h; sourceTree = "<group>"; };
+		67EE6EE91651ED66005E1C24 /* JoinType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinType.h; sourceTree = "<group>"; };
+		67EE6EEA1651ED66005E1C24 /* OperationCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationCode.h; sourceTree = "<group>"; };
+		67EE6EEB1651ED66005E1C24 /* ParameterCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterCode.h; sourceTree = "<group>"; };
+		67EE6EED1651ED66005E1C24 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		67EE6EEE1651ED66005E1C24 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		67EE6EEF1651ED66005E1C24 /* LoadBalancingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadBalancingClient.h; sourceTree = "<group>"; };
+		67EE6EF01651ED66005E1C24 /* LoadBalancingListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadBalancingListener.h; sourceTree = "<group>"; };
+		67EE6EF11651ED66005E1C24 /* LoadBalancingPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadBalancingPeer.h; sourceTree = "<group>"; };
+		67EE6EF21651ED66005E1C24 /* LoadBalancingPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadBalancingPlayer.h; sourceTree = "<group>"; };
+		67EE6EF31651ED66005E1C24 /* LoadBalancingRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadBalancingRoom.h; sourceTree = "<group>"; };
+		67EE6EF51651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_debug_iphoneos.a"; sourceTree = "<group>"; };
+		67EE6EF61651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_debug_iphonesimulator.a"; sourceTree = "<group>"; };
+		67EE6EF71651ED66005E1C24 /* libLoadBalancing-cpp_release_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libLoadBalancing-cpp_release_iphoneos.a"; sourceTree = "<group>"; };
+		67EE6EF81651ED66005E1C24 /* LoadBalancing-cpp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "LoadBalancing-cpp.xcodeproj"; sourceTree = "<group>"; };
+		67EE6EFC1651ED66005E1C24 /* LoadBalancingClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadBalancingClient.cpp; sourceTree = "<group>"; };
+		67EE6EFD1651ED66005E1C24 /* LoadBalancingPeer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadBalancingPeer.cpp; sourceTree = "<group>"; };
+		67EE6EFE1651ED66005E1C24 /* LoadBalancingPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadBalancingPlayer.cpp; sourceTree = "<group>"; };
+		67EE6EFF1651ED66005E1C24 /* LoadBalancingRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadBalancingRoom.cpp; sourceTree = "<group>"; };
 		7855E0DF153FEF240059DD9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		789B560C15197BE00038CD1E /* animations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animations; sourceTree = "<group>"; };
 		789B560E15197BF30038CD1E /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
@@ -961,6 +1023,9 @@
 				67522DE816438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a in Frameworks */,
 				67522DE916438A3600A391F6 /* libPhoton-c_release_iphoneos.a in Frameworks */,
 				67522DEA16438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a in Frameworks */,
+				67EE6F001651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphoneos.a in Frameworks */,
+				67EE6F011651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphonesimulator.a in Frameworks */,
+				67EE6F021651ED66005E1C24 /* libLoadBalancing-cpp_release_iphoneos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,6 +1121,8 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				674A90231653418C000A4D81 /* GGUtil.h */,
+				67EE6EB31651EB79005E1C24 /* PhotonLoadBalancingTest */,
 				67D34B4116462C200074041C /* PhotonTest */,
 				15AA9F3A15B7EF960033D6C2 /* AppDelegate.cpp */,
 				15AA9CAA15B7EC460033D6C2 /* controller.cpp */,
@@ -2212,6 +2279,7 @@
 		6752186A1643786300A391F6 /* Photon-iOS_v3-0-4-0_SDK */ = {
 			isa = PBXGroup;
 			children = (
+				67EE6EE11651ED66005E1C24 /* LoadBalancing-cpp */,
 				67522DB516438A3600A391F6 /* Common-c */,
 				67522DC716438A3600A391F6 /* Photon-c */,
 				6752187D1643786300A391F6 /* Common-cpp */,
@@ -2432,6 +2500,120 @@
 			path = ../Classes/PhotonTest;
 			sourceTree = "<group>";
 		};
+		67EE6EB31651EB79005E1C24 /* PhotonLoadBalancingTest */ = {
+			isa = PBXGroup;
+			children = (
+				674A901D1652E7F2000A4D81 /* NetworkLogic.cpp */,
+				67EE6ED31651EC2B005E1C24 /* NetworkLogic.h */,
+				67EE6ED41651EC2B005E1C24 /* OutputListener.h */,
+				67EE6ED61651EC2B005E1C24 /* CCLobbyView.h */,
+				67EE6ED71651EC2B005E1C24 /* CCLobbyView.cpp */,
+				67EE6ED81651EC2B005E1C24 /* CCNetworkLogic.cpp */,
+				67EE6ED91651EC2B005E1C24 /* CCNetworkLogic.h */,
+				67EE6EBA1651EB79005E1C24 /* PhotonLoadBalancingTest.cpp */,
+				67EE6EBB1651EB79005E1C24 /* PhotonLoadBalancingTest.h */,
+				675A118B165212EE006E4B35 /* CCRoomTableCell.h */,
+				675A118C165212FE006E4B35 /* CCRoomTableCell.cpp */,
+				675A118E1652133E006E4B35 /* CCLobbyTableCell.h */,
+				675A118F16521355006E4B35 /* CCLobbyTableCell.cpp */,
+			);
+			name = PhotonLoadBalancingTest;
+			path = ../Classes/PhotonLoadBalancingTest;
+			sourceTree = "<group>";
+		};
+		67EE6EE11651ED66005E1C24 /* LoadBalancing-cpp */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6EE21651ED66005E1C24 /* inc */,
+				67EE6EF41651ED66005E1C24 /* lib */,
+				67EE6EF81651ED66005E1C24 /* LoadBalancing-cpp.xcodeproj */,
+				67EE6EFB1651ED66005E1C24 /* src */,
+			);
+			path = "LoadBalancing-cpp";
+			sourceTree = "<group>";
+		};
+		67EE6EE21651ED66005E1C24 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6EE31651ED66005E1C24 /* Enums */,
+				67EE6EE61651ED66005E1C24 /* Internal */,
+				67EE6EEF1651ED66005E1C24 /* LoadBalancingClient.h */,
+				67EE6EF01651ED66005E1C24 /* LoadBalancingListener.h */,
+				67EE6EF11651ED66005E1C24 /* LoadBalancingPeer.h */,
+				67EE6EF21651ED66005E1C24 /* LoadBalancingPlayer.h */,
+				67EE6EF31651ED66005E1C24 /* LoadBalancingRoom.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		67EE6EE31651ED66005E1C24 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6EE41651ED66005E1C24 /* ErrorCode.h */,
+				67EE6EE51651ED66005E1C24 /* PeerStates.h */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		67EE6EE61651ED66005E1C24 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6EE71651ED66005E1C24 /* Enums */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		67EE6EE71651ED66005E1C24 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6EE81651ED66005E1C24 /* EventCode.h */,
+				67EE6EE91651ED66005E1C24 /* JoinType.h */,
+				67EE6EEA1651ED66005E1C24 /* OperationCode.h */,
+				67EE6EEB1651ED66005E1C24 /* ParameterCode.h */,
+				67EE6EEC1651ED66005E1C24 /* Properties */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		67EE6EEC1651ED66005E1C24 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6EED1651ED66005E1C24 /* Player.h */,
+				67EE6EEE1651ED66005E1C24 /* Room.h */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		67EE6EF41651ED66005E1C24 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6EF51651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphoneos.a */,
+				67EE6EF61651ED66005E1C24 /* libLoadBalancing-cpp_debug_iphonesimulator.a */,
+				67EE6EF71651ED66005E1C24 /* libLoadBalancing-cpp_release_iphoneos.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		67EE6EF91651ED66005E1C24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6F0B1651ED67005E1C24 /* libLoadBalancing-cpp_debug_iphoneos.a */,
+				67EE6F0D1651ED67005E1C24 /* libLoadBalancing-cpp_debug_macosx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67EE6EFB1651ED66005E1C24 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				67EE6EFC1651ED66005E1C24 /* LoadBalancingClient.cpp */,
+				67EE6EFD1651ED66005E1C24 /* LoadBalancingPeer.cpp */,
+				67EE6EFE1651ED66005E1C24 /* LoadBalancingPlayer.cpp */,
+				67EE6EFF1651ED66005E1C24 /* LoadBalancingRoom.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -2560,6 +2742,10 @@
 					ProductGroup = 15AA9C2E15B7EBDF0033D6C2 /* Products */;
 					ProjectRef = 15AA9C2D15B7EBDF0033D6C2 /* cocos2dx.xcodeproj */;
 				},
+				{
+					ProductGroup = 67EE6EF91651ED66005E1C24 /* Products */;
+					ProjectRef = 67EE6EF81651ED66005E1C24 /* LoadBalancing-cpp.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -2574,6 +2760,20 @@
 			fileType = archive.ar;
 			path = libcocos2dx.a;
 			remoteRef = 15AA9C3415B7EBDF0033D6C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		67EE6F0B1651ED67005E1C24 /* libLoadBalancing-cpp_debug_iphoneos.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libLoadBalancing-cpp_debug_iphoneos.a";
+			remoteRef = 67EE6F0A1651ED67005E1C24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		67EE6F0D1651ED67005E1C24 /* libLoadBalancing-cpp_debug_macosx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libLoadBalancing-cpp_debug_macosx.a";
+			remoteRef = 67EE6F0C1651ED67005E1C24 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -2836,6 +3036,16 @@
 				67D34B54164726F20074041C /* Photon_lib.cpp in Sources */,
 				67D34B56164726F20074041C /* StdIO_UIListener.cpp in Sources */,
 				676823DB1647857B00EF1D53 /* ControlPhoton.cpp in Sources */,
+				67EE6EC21651EB79005E1C24 /* PhotonLoadBalancingTest.cpp in Sources */,
+				67EE6EDE1651EC2B005E1C24 /* CCLobbyView.cpp in Sources */,
+				67EE6EDF1651EC2B005E1C24 /* CCNetworkLogic.cpp in Sources */,
+				67EE6F031651ED66005E1C24 /* LoadBalancingClient.cpp in Sources */,
+				67EE6F041651ED66005E1C24 /* LoadBalancingPeer.cpp in Sources */,
+				67EE6F051651ED66005E1C24 /* LoadBalancingPlayer.cpp in Sources */,
+				67EE6F061651ED66005E1C24 /* LoadBalancingRoom.cpp in Sources */,
+				675A118D165212FF006E4B35 /* CCRoomTableCell.cpp in Sources */,
+				675A119016521356006E4B35 /* CCLobbyTableCell.cpp in Sources */,
+				674A901E1652E7F2000A4D81 /* NetworkLogic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2884,6 +3094,7 @@
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Photon-cpp/inc\"",
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Common-c/inc\"",
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Photon-c/inc\"",
+					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/LoadBalancing-cpp/inc\"",
 				);
 				INFOPLIST_FILE = "Test-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -2893,6 +3104,7 @@
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Photon-cpp/lib\"",
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Common-c/lib\"",
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Photon-c/lib\"",
+					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/LoadBalancing-cpp/lib\"",
 				);
 				OTHER_CFLAGS = "-O2";
 				"OTHER_LDFLAGS[arch=*]" = (
@@ -2941,6 +3153,7 @@
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Photon-cpp/inc\"",
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Common-c/inc\"",
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Photon-c/inc\"",
+					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/LoadBalancing-cpp/inc\"",
 				);
 				INFOPLIST_FILE = "Test-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -2950,6 +3163,7 @@
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Photon-cpp/lib\"",
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Common-c/lib\"",
 					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/Photon-c/lib\"",
+					"\"$(SRCROOT)/../../../Photon-iOS_v3-0-4-0_SDK/LoadBalancing-cpp/lib\"",
 				);
 				PRODUCT_NAME = TestCpp;
 				PROVISIONING_PROFILE = "";

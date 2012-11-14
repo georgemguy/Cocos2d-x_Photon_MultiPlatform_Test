@@ -1,11 +1,3 @@
-//
-//  ConnectButton.cpp
-//  TestCpp
-//
-//  Created by George Guy on 11/4/12.
-//
-//
-
 #include "ControlPhoton.h"
 #include "PhotonTest.h"
 

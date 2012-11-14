@@ -99,11 +99,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Classes/PhotonTest/ControlPhoton.cpp"
-         timestampString = "373886719.891569"
+         timestampString = "374557780.641857"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "62"
-         endingLineNumber = "62"
+         startingLineNumber = "54"
+         endingLineNumber = "54"
          landmarkName = "ConnectButton::update(float delta)"
          landmarkType = "5">
       </FileBreakpoint>
@@ -112,12 +112,90 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Classes/PhotonTest/ControlPhoton.cpp"
-         timestampString = "373886719.891569"
+         timestampString = "374557780.641857"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "66"
-         endingLineNumber = "66"
+         startingLineNumber = "58"
+         endingLineNumber = "58"
          landmarkName = "ConnectButton::update(float delta)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/PhotonLoadBalancingTest/CCLobbyView.cpp"
+         timestampString = "374568235.940449"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "156"
+         endingLineNumber = "156"
+         landmarkName = "CCLobbyView::connectButtonCallback( CCObject* sender )"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/PhotonLoadBalancingTest/CCNetworkLogic.cpp"
+         timestampString = "374557780.641857"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "40"
+         endingLineNumber = "40"
+         landmarkName = "CCNetworkLogic::writeLine(const ExitGames::Common::JString&amp; str)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/PhotonLoadBalancingTest/CCNetworkLogic.cpp"
+         timestampString = "374557780.641857"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "28"
+         endingLineNumber = "28"
+         landmarkName = "CCNetworkLogic::write(const ExitGames::Common::JString&amp; str)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/PhotonLoadBalancingTest/NetworkLogic.cpp"
+         timestampString = "374560143.037915"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "135"
+         endingLineNumber = "135"
+         landmarkName = "NetworkLogic::run(void)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/PhotonLoadBalancingTest/NetworkLogic.cpp"
+         timestampString = "374560143.037915"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "121"
+         endingLineNumber = "121"
+         landmarkName = "NetworkLogic::run(void)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/PhotonLoadBalancingTest/CCNetworkLogic.cpp"
+         timestampString = "374558381.842926"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "59"
+         endingLineNumber = "59"
+         landmarkName = "CCNetworkLogic::getStateString(State state)"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

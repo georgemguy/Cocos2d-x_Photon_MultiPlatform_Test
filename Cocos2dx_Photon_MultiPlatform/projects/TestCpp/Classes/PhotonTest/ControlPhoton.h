@@ -1,11 +1,3 @@
-//
-//  ConnectButton.h
-//  TestCpp
-//
-//  Created by George Guy on 11/4/12.
-//
-//
-
 #ifndef TestCpp_ConnectButton_h
 #define TestCpp_ConnectButton_h
 
