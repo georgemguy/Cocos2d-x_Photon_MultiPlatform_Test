@@ -6,20 +6,46 @@
 #include "LoadBalancingClient.h"
 #include "LoadBalancingPlayer.h"
 
+/*
+ * Any Photon client is in one of these states at any given time. NetworkLogic
+ * stores the client's state on its StateAccessor object "mStateAccessor".
+ * No public method of NetworkLogic should alter the State of the NetworkLogic
+ * except NetworkLogic::run(). Anything else that may involve a change of state
+ * should be handled with an Input, an Operation, or a private method of
+ * NetworkLogic.
+ */
 typedef enum _State
 {
+    // The client is ready to connect, having just either finished starting, or
+    // finished disconnecting.
 	STATE_INITIALIZED = 0,
-    STATE_WAITING,
+    // The client has received the input INPUT_CONNECT, and is about to try
+    // connecting.
 	STATE_CONNECTING,
+    // The client has attempted to connect, and is waiting for a response from
+    // the server.
+    STATE_WAITING,
+    // The client has connected.
 	STATE_CONNECTED,
+    // The client has asked to join a game, but has not yet received a
+    // response.
 	STATE_JOINING,
+    // The client has joined a game.
 	STATE_JOINED,
+    // The client has asked to join a game, but has not yet received a
+    // response.
 	STATE_LEAVING,
+    // The client has just left a room.
 	STATE_LEFT,
+    // The client is attempting to disconnect.
 	STATE_DISCONNECTING,
+    // The client has just disconnected.
 	STATE_DISCONNECTED
 } State;
 
+/*
+ * An Input is a command that is represented by one of the Input enumerations, rather than a method. To use an Input, call NetworkLogic::setLastInput(), which will store the given input on NetworkLogic::mLastInput. For instance, to connect, use "networkLogic->setLastInput( INPUT_CONNECT )". The effects of the last input set within a given tick are executed in NetworkLogic::run(). At the end of NetworkLogic::run(), mLastInput is reset to INPUT_NON.
+ */
 typedef enum _Input
 {
 	INPUT_NON = 0,
@@ -71,7 +97,10 @@ public:
 	Input getLastInput(void) const;
 	void setLastInput(Input newInput);
 	State getState(void) const;
-private:
+    virtual void setServerAddress( const char* address );
+    virtual const ExitGames::Common::JVector<ExitGames::LoadBalancing::Room>& getRoomList();
+
+protected:
 	//From Common::BaseListener
 	// receive and print out Photon datatypes debug out here
 	virtual void debugReturn(const ExitGames::Common::JString& string);
@@ -107,6 +136,7 @@ private:
 	StateAccessor mStateAccessor;
 	Input mLastInput;
 	OutputListener* mOutputListener;
+    ExitGames::Common::JString mServerAddress;
 };
 
 #endif

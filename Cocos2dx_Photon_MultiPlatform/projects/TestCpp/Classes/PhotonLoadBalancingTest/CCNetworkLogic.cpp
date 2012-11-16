@@ -3,18 +3,21 @@
 USING_NS_CC;
 using namespace ExitGames;
 using namespace Common;
+using namespace LoadBalancing;
+
+CCRoomInfo::CCRoomInfo( const Room& room )
+{
+    name = room.getName().UTF8Representation().cstr();
+    
+    //if( room.getIsOpen() ) isOpen = "open";
+    //else isOpen = room.
+}
 
 CCNetworkLogic::CCNetworkLogic()
 : NetworkLogic(this, "1.0.0.0")
 {
     registerForStateUpdates(this);
-    this->setNetworkState( STATE_INITIALIZED );
     _output = "";
-}
-
-void CCNetworkLogic::setAddress( const char* address )
-{
-    this->_address = JString( address );
 }
 
 void CCNetworkLogic::write(const ExitGames::Common::JString& str)
@@ -33,6 +36,19 @@ void CCNetworkLogic::write(const ExitGames::Common::JString& str)
     CCLOG( "%s", str.UTF8Representation().cstr() );
 }
 
+CCString CCNetworkLogic::getRoomInfoAtIndex( unsigned int index )
+{
+    using namespace std;
+    if( index < mLoadBalancingClient.getRoomList().getSize() )
+    {
+        return mLoadBalancingClient.getRoomList().getElementAt( index ).toString().UTF8Representation().cstr();
+    }
+    else
+    {
+        return "";
+    }
+}
+
 void CCNetworkLogic::writeLine(const ExitGames::Common::JString& str)
 {
     //[mConsole writeLine:[NSString stringWithUTF8String:str.UTF8Representation().cstr()]];
@@ -42,43 +58,43 @@ void CCNetworkLogic::writeLine(const ExitGames::Common::JString& str)
     string cppStr = string( cStr );
     
     //this->_output = cppStr;
+    this->_output = str.UTF8Representation().cstr();
     CCLOG( "%s", str.UTF8Representation().cstr() );
 }
 
 void CCNetworkLogic::stateUpdate(State newState)
 {
     //[mAppDelegate stateUpdate:newState];
-    this->setNetworkState( newState );
     
-    this->_output = this->getStateString( newState ).ANSIRepresentation().cstr();
+    //this->_output = this->getStateString( newState );
     //CCLOG( "State = %d", newState );
 }
 
-ExitGames::Common::JString CCNetworkLogic::getStateString(State state)
+CCString CCNetworkLogic::getStateString(State state)
 {
 	switch(state)
 	{
 		case STATE_INITIALIZED:
-			return L"disconnected";
+			return "disconnected";
         case STATE_WAITING:
-            return L"connecting";
+            return "connecting";
 		case STATE_CONNECTING:
-			return L"connecting";
+			return "connecting";
 		case STATE_CONNECTED:
-			return L"connected";
+			return "connected";
 		case STATE_JOINING:
-			return L"joining";
+			return "joining";
 		case STATE_JOINED:
-			return L"joined";
+			return "joined";
 		case STATE_LEAVING:
-			return L"leaving";
+			return "leaving";
 		case STATE_LEFT:
-			return L"left";
+			return "left";
 		case STATE_DISCONNECTING:
-			return L"disconnecting";
+			return "disconnecting";
 		case STATE_DISCONNECTED:
-			return L"disconnected";
+			return "disconnected";
 		default:
-			return L"unknown state";
+			return "unknown state";
 	}
 }

@@ -433,35 +433,7 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationRequest.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/PhotonLoadBalancingTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ChipmunkAccelTouchTest/ChipmunkAccelTouchTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/chipmunk.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/chipmunk_types.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpVect.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpBB.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpSpatialIndex.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpBody.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpShape.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpPolyShape.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpArbiter.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpSpace.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ChipmunkAccelTouchTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ExtensionsTest/ExtensionsTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ExtensionsTest/../testBasic.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonPeer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MutiTouchTest/MutiTouchTest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MutiTouchTest/../testBasic.h
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/../testBasic.h
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/controller.h:
 
@@ -1330,59 +1302,3 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/controller.o: \
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/PhotonLoadBalancingTest.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ChipmunkAccelTouchTest/ChipmunkAccelTouchTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/chipmunk.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/chipmunk_types.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpVect.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpBB.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpSpatialIndex.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpBody.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpShape.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpPolyShape.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpArbiter.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpConstraint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpPinJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../external/chipmunk/include/chipmunk/cpSpace.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ChipmunkAccelTouchTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ExtensionsTest/ExtensionsTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/ExtensionsTest/../testBasic.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonPeer.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MutiTouchTest/MutiTouchTest.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/MutiTouchTest/../testBasic.h:

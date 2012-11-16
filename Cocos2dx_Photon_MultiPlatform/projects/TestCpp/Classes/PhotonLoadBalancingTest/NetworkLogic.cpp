@@ -26,6 +26,10 @@
 #	define PLAYER_NAME "unknown platform"
 #endif
 
+using namespace ExitGames;
+using namespace Common;
+using namespace LoadBalancing;
+
 ExitGames::Common::JString& NetworkLogicListener::toString(ExitGames::Common::JString& retStr, bool withTypes) const
 {
 	return retStr;
@@ -67,6 +71,11 @@ State NetworkLogic::getState(void) const
 	return mStateAccessor.getState();
 }
 
+const ExitGames::Common::JVector<ExitGames::LoadBalancing::Room>& NetworkLogic::getRoomList()
+{
+    return mLoadBalancingClient.getRoomList();
+}
+
 // functions
 NetworkLogic::NetworkLogic(OutputListener* listener, const char* appVersion)
 #ifdef _EG_MS_COMPILER
@@ -89,6 +98,12 @@ void NetworkLogic::registerForStateUpdates(NetworkLogicListener* listener)
 	mStateAccessor.registerForStateUpdates(listener);
 }
 
+void NetworkLogic::connect(void)
+{
+	mLoadBalancingClient.connect( mServerAddress ); // specify the ip and port of your local masterserver here; call the parameterless overload instead, if you want to connect to the  exitgamescloud
+	mStateAccessor.setState(STATE_WAITING);
+}
+
 void NetworkLogic::disconnect(void)
 {
 	mLoadBalancingClient.disconnect();
@@ -106,6 +121,11 @@ void NetworkLogic::opCreateRoom(void)
 void NetworkLogic::opJoinRandomRoom(void)
 {
 	mLoadBalancingClient.opJoinRandomRoom();
+}
+
+void NetworkLogic::setServerAddress( const char* address )
+{
+    this->mServerAddress = JString( address );
 }
 
 void NetworkLogic::run(void)
@@ -134,7 +154,6 @@ void NetworkLogic::run(void)
 			break; // wait for callback*/
         case STATE_CONNECTING:
             connect();
-            mStateAccessor.setState(STATE_WAITING);
             mOutputListener->writeLine(L"connecting");
             break;
         case STATE_WAITING:
@@ -144,7 +163,8 @@ void NetworkLogic::run(void)
 			{
 			case INPUT_CREATE_GAME: // create Game
 				opCreateRoom();
-				break;
+                //this->setLastInput( INPUT_JOIN_RANDOM_GAME );
+				//break;
 			case INPUT_JOIN_RANDOM_GAME: // join Game
 				opJoinRandomRoom();
 				mStateAccessor.setState(STATE_JOINING);
@@ -263,6 +283,8 @@ void NetworkLogic::connectReturn(int errorCode, const ExitGames::Common::JString
 	}
 	mOutputListener->writeLine(L"connected");
 	mStateAccessor.setState(STATE_CONNECTED);
+    
+    mLoadBalancingClient.opJoinLobby();
 }
 
 void NetworkLogic::disconnectReturn(void)
@@ -343,6 +365,8 @@ void NetworkLogic::joinLobbyReturn(void)
 {
 	PhotonPeer_sendDebugOutput(&mLoadBalancingClient, DEBUG_LEVEL_INFO, L"");
 	mOutputListener->writeLine(L"joined lobby");
+    
+
 }
 
 void NetworkLogic::leaveLobbyReturn(void)

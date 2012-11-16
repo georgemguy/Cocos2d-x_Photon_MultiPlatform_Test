@@ -12,15 +12,17 @@
 #include "cocos-ext.h"
 #include "CCNetworkLogic.h"
 #include "GGUtil.h"
+#include "CCRoomTableCell.h"
 
 class CCLobbyView : public cocos2d::CCLayer, public cocos2d::extension::CCTableViewDataSource, public cocos2d::extension::CCTableViewDelegate, public cocos2d::extension::CCEditBoxDelegate
 {
     CC_SYNTHESIZE_RETAIN( CCNetworkLogic*, _network, Network );
     CC_SYNTHESIZE_CHILD( cocos2d::CCLabelTTF*, _console, Console );
     CC_SYNTHESIZE_CHILD( cocos2d::extension::CCControlButton*, _connectButton, ConnectButton );
-    CC_SYNTHESIZE_CHILD( cocos2d::extension::CCControlButton*, _createRoomButton, CreateRoomButton );
+    CC_SYNTHESIZE_CHILD( cocos2d::extension::CCControlButton*, _createGameButton, CreateGameButton );
     CC_SYNTHESIZE_CHILD( cocos2d::extension::CCEditBox*, _editAddress, EditAddress );
     CC_SYNTHESIZE_CHILD( cocos2d::CCLabelTTF*, _displayAddress, DisplayAddress );
+    CC_SYNTHESIZE_CHILD( cocos2d::extension::CCTableView*, _roomTable, RoomTable );
     
 public:
     CCLobbyView();
@@ -32,6 +34,7 @@ public:
     virtual void update( float delta );
     
     virtual void connectButtonCallback( cocos2d::CCObject* sender );
+    virtual void createGameButtonCallback( cocos2d::CCObject* sender );
     
     /**
      * Delegate to respond touch event

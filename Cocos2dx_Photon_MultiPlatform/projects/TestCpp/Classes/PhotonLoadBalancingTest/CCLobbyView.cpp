@@ -15,9 +15,10 @@ CCLobbyView::CCLobbyView() : CCLayer()
     this->_network = NULL;
     this->_connectButton = NULL;
     this->_console = NULL;
-    this->_createRoomButton = NULL;
+    this->_createGameButton = NULL;
     this->_editAddress = NULL;
     this->_displayAddress = NULL;
+    this->_roomTable = NULL;
 }
 
 CCLobbyView::~CCLobbyView()
@@ -25,16 +26,18 @@ CCLobbyView::~CCLobbyView()
     CC_SAFE_DELETE( this->_network );
     this->setConsole( NULL );
     this->setConnectButton( NULL );
-    this->setCreateRoomButton( NULL );
+    this->setCreateGameButton( NULL );
     this->setEditAddress( NULL );
     this->setDisplayAddress( NULL );
+    this->setRoomTable( NULL );
 }
 
-bool CCLobbyView::init( CCNetworkLogic* network, const CCSize& size )
+bool CCLobbyView::init( CCNetworkLogic* network, const CCSize& mySize )
 {
     if( CCLayer::init() )
     {
-        const CCPoint& center = ccpMult( ccpFromSize( size ), 0.5f );
+        CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+        const CCPoint& center = ccpMult( ccpFromSize( mySize ), 0.5f );
         CCPoint position = CCPointZero;
         CCSize size = CCSizeZero;
         int length = 0;
@@ -67,19 +70,30 @@ bool CCLobbyView::init( CCNetworkLogic* network, const CCSize& size )
         sprite = CCScale9Sprite::create("Images/r1.png", rect, rect );
         sprite->setScaleX( 1.8f );
         button = CCControlButton::create( label, sprite );
-        button->addTargetWithActionForControlEvents( this, cccontrol_selector( CCLobbyView::connectButtonCallback ), CCControlEventTouchUpInside);
+        button->addTargetWithActionForControlEvents( this, cccontrol_selector( CCLobbyView::createGameButtonCallback ), CCControlEventTouchUpInside);
         button->setPreferredSize( rect.size );
         position = center;
         position.y -= 100;
         position.x += 75;
         button->setPosition( position );
-        this->setCreateRoomButton( button );
+        this->setCreateGameButton( button );
         
-        CCSize tableSize = CCSizeMake( size.width * 0.9f, size.height * 0.9f );
-        CCTableView* roomTable = CCTableView::create( this, tableSize );
-        roomTable->setPosition( center );
+        fontSize = 24;
+        length = mySize.width;
+        size = this->cellSizeForTable( NULL );
+        size.height *= 3;
+        CCTableView* table = CCTableView::create( this, size );
+        table->setContentOffset( CCPointZero );
+        table->setDirection(kCCScrollViewDirectionVertical);
+        position = center;
+        position.x -= size.width * 0.5f;
+        position.y -= size.height * 0.17f;
+        table->setPosition( position );
+        table->setDelegate( this );
+        table->setVerticalFillOrder(kCCTableViewFillTopDown);
+        this->setRoomTable( table );
+        table->reloadData();
         
-        CCSize winSize = CCDirector::sharedDirector()->getWinSize();
         //Common::JString jStr = _photonLib.getStateString();
         //const char* cStr = jStr.ANSIRepresentation();
         
@@ -147,16 +161,22 @@ void CCLobbyView::onExit()
 void CCLobbyView::connectButtonCallback( CCObject* sender )
 {
     CCNetworkLogic* network = this->getNetwork();
-    State state = network->getNetworkState();
+    State state = network->getState();
     
     if( state == STATE_INITIALIZED )
     {
-        network->connect();
+        network->setLastInput( INPUT_CONNECT );
     }
     else
     {
-        network->disconnect();
+        network->setLastInput( INPUT_EXIT );
     }
+}
+
+void CCLobbyView::createGameButtonCallback( CCObject* sender )
+{
+    CCNetworkLogic* network = this->getNetwork();
+    network->setLastInput( INPUT_CREATE_GAME );
 }
 
 void CCLobbyView::update( float delta )
@@ -168,7 +188,7 @@ void CCLobbyView::update( float delta )
     this->getConsole()->setString( output.getCString() );
     
     CCNetworkLogic* network = this->getNetwork();
-    State state = network->getNetworkState();
+    State state = network->getState();
     CCControlButton* connectButton = this->getConnectButton();
     
     if( connectButton )
@@ -182,6 +202,8 @@ void CCLobbyView::update( float delta )
             connectButton->setTitleForState( new CCString( "Disconnect" ), CCControlStateNormal );
         }
     }
+    
+    this->getRoomTable()->reloadData();
 }
 
 void CCLobbyView::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
@@ -191,7 +213,7 @@ void CCLobbyView::tableCellTouched(CCTableView* table, CCTableViewCell* cell)
 
 void CCLobbyView::scrollViewDidScroll(cocos2d::extension::CCScrollView* view)
 {
-    
+    this->getRoomTable()->scrollViewDidScroll( this->getRoomTable() );
 }
 
 void CCLobbyView::scrollViewDidZoom(cocos2d::extension::CCScrollView* view)
@@ -201,19 +223,32 @@ void CCLobbyView::scrollViewDidZoom(cocos2d::extension::CCScrollView* view)
 
 CCSize CCLobbyView::cellSizeForTable(CCTableView *table)
 {
-    return CCSizeMake(60, 60);
+    return CCSizeMake( this->getContentSize().width * 0.9f, 16);
 }
 
 CCTableViewCell* CCLobbyView::tableCellAtIndex(CCTableView *table, unsigned int idx)
 {
     CCString *string = CCString::createWithFormat("%d", idx);
-    CCTableViewCell *cell = table->dequeueCell();
+    CCRoomTableCell *cell = (CCRoomTableCell*) table->dequeueCell();
     if (!cell) {
+        if( idx == 0 )
+        {
+            cell = CCRoomTableCell::create( "Running games:" );
+        }
+        else
+        {
+            CCString roomInfo = this->getNetwork()->getRoomInfoAtIndex( idx - 1 );
+            cell = CCRoomTableCell::create( roomInfo );
+        }
+        
+        /*
         cell = new CCTableViewCell();
         cell->autorelease();
         CCSprite *sprite = CCSprite::create("Images/Icon.png");
         sprite->setAnchorPoint(CCPointZero);
         sprite->setPosition(ccp(0, 0));
+        sprite->setContentSize( CCSizeMake( this->getContentSize().width, 25 ) );
+
         cell->addChild(sprite);
         
         CCLabelTTF *label = CCLabelTTF::create(string->getCString(), "Helvetica", 20.0);
@@ -221,11 +256,20 @@ CCTableViewCell* CCLobbyView::tableCellAtIndex(CCTableView *table, unsigned int 
 		label->setAnchorPoint(CCPointZero);
         label->setTag(123);
         cell->addChild(label);
+         */
     }
     else
     {
-        CCLabelTTF *label = (CCLabelTTF*)cell->getChildByTag(123);
-        label->setString(string->getCString());
+        CCLabelTTF *label = (CCLabelTTF*) cell->getLabel();
+
+        if( idx == 0 )
+        {
+            label->setString( "Running games:" );
+        }
+        else
+        {
+            label->setString( string->getCString() );
+        }
     }
     
     return cell;
@@ -233,7 +277,7 @@ CCTableViewCell* CCLobbyView::tableCellAtIndex(CCTableView *table, unsigned int 
 
 unsigned int CCLobbyView::numberOfCellsInTableView(CCTableView *table)
 {
-    return 20;
+    return this->getNetwork()->getRoomList().getSize() + 1;
 }
 
 void CCLobbyView::editBoxEditingDidBegin(cocos2d::extension::CCEditBox* editBox)
@@ -261,7 +305,9 @@ void CCLobbyView::editBoxReturn(CCEditBox* editBox)
         int minIPAddressLength = 12;
         if( text.length() >= minIPAddressLength )
         {
-            this->getDisplayAddress()->setString( text.getCString() );
+            const char* address = text.getCString();
+            this->getDisplayAddress()->setString( address );
+            this->getNetwork()->setServerAddress( address );
         }
     }
 }
