@@ -123,6 +123,22 @@ void NetworkLogic::opJoinRandomRoom(void)
 	mLoadBalancingClient.opJoinRandomRoom();
 }
 
+void NetworkLogic::opJoinRoom(const Common::JString &gameID)
+{
+	mLoadBalancingClient.opJoinRoom(gameID);
+}
+
+void NetworkLogic::opLeaveRoom( void )
+{
+	mLoadBalancingClient.opLeaveRoom();
+}
+
+void NetworkLogic::opRaiseEvent(bool reliable, const Common::Hashtable &parameters, nByte eventCode)
+{
+	mLoadBalancingClient.opRaiseEvent(reliable, parameters, eventCode);
+	mOutputListener->writeLine(ExitGames::Common::JString(L"sending Event"));
+}
+
 void NetworkLogic::setServerAddress( const char* address )
 {
     this->mServerAddress = JString( address );
@@ -191,8 +207,10 @@ void NetworkLogic::run(void)
 			}
 			break;
 		case STATE_LEAVING:
+            opLeaveRoom();
 			break; // wait for callback
 		case STATE_LEFT:
+            //change button back to Join Game
 			mStateAccessor.setState(STATE_CONNECTED);
 			break;
 		case STATE_DISCONNECTING:
@@ -270,6 +288,19 @@ void NetworkLogic::customEventAction(int playerNr, nByte eventCode, const ExitGa
 	// you do not receive your own events, unless you specify yourself as one of the receivers explicitly, so you must start 2 clients, to receive the events, which you have sent, as sendEvent() uses the default receivers of opRaiseEvent() (all players in same room like the sender, except the sender itself)
 	PhotonPeer_sendDebugOutput(&mLoadBalancingClient, DEBUG_LEVEL_ALL, L"");
 	mOutputListener->write(L"r");
+    switch (eventCode)
+    {
+        case EVENT_CHAT:
+            mOutputListener->write(L"chat event receieved");
+            
+            break;
+        default:
+            break;
+    }
+    char code[2] = { '\0' };
+    sprintf( code, "%d", eventCode );
+    mOutputListener->write( code );
+
 }
 
 void NetworkLogic::connectReturn(int errorCode, const ExitGames::Common::JString& errorString)

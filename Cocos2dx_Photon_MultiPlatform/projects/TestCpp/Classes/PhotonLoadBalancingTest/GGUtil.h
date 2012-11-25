@@ -141,8 +141,8 @@ private: varType varName;\
 public: virtual varType get##funName(void) const { return varName; }\
 public: virtual void set##funName(varType var)\
 {\
-if(dynamic_cast<cocos2d::CCNode*>(varName)) this->removeChild(varName,true);\
-if(dynamic_cast<cocos2d::CCNode*>(var))\
+if(varName) this->removeChild(varName,true);\
+if(var)\
 {\
 varName = var;\
 this->addChild(var);\

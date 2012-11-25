@@ -5,14 +5,6 @@ using namespace ExitGames;
 using namespace Common;
 using namespace LoadBalancing;
 
-CCRoomInfo::CCRoomInfo( const Room& room )
-{
-    name = room.getName().UTF8Representation().cstr();
-    
-    //if( room.getIsOpen() ) isOpen = "open";
-    //else isOpen = room.
-}
-
 CCNetworkLogic::CCNetworkLogic()
 : NetworkLogic(this, "1.0.0.0")
 {
@@ -36,17 +28,9 @@ void CCNetworkLogic::write(const ExitGames::Common::JString& str)
     CCLOG( "%s", str.UTF8Representation().cstr() );
 }
 
-CCString CCNetworkLogic::getRoomInfoAtIndex( unsigned int index )
+CCRoomInfo CCNetworkLogic::getRoomInfoAtIndex( unsigned int index )
 {
-    using namespace std;
-    if( index < mLoadBalancingClient.getRoomList().getSize() )
-    {
-        return mLoadBalancingClient.getRoomList().getElementAt( index ).toString().UTF8Representation().cstr();
-    }
-    else
-    {
-        return "";
-    }
+    return CCRoomInfo( mLoadBalancingClient.getRoomList().getElementAt( index ) );
 }
 
 void CCNetworkLogic::writeLine(const ExitGames::Common::JString& str)

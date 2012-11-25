@@ -18,12 +18,16 @@ Classes/PhotonLoadBalancingTest/CCLobbyView.cpp \
 Classes/PhotonLoadBalancingTest/CCNetworkLogic.cpp \
 Classes/PhotonLoadBalancingTest/PhotonLoadBalancingTest.cpp \
 Classes/PhotonLoadBalancingTest/CCRoomTableCell.cpp \
-Classes/PhotonLoadBalancingTest/CCLobbyTableCell.cpp \
+Classes/PhotonLoadBalancingTest/CCControlConfirmMessage.cpp \
+Classes/PhotonLoadBalancingTest/CCChatRoom.cpp \
+Classes/PhotonLoadBalancingTest/CCChatTableCell.cpp \
+Classes/PhotonLoadBalancingTest/CCRoomInfo.cpp \
+Classes/PhotonLoadBalancingTest/CCRemoveFromParent.cpp \
+Classes/PhotonLoadBalancingTest/CCEnable.cpp \
+Classes/PhotonLoadBalancingTest/CCRecursiveAction.cpp \
 Classes/controller.cpp \
 Classes/testBasic.cpp \
 Classes/AppDelegate.cpp 
-
-#LOCAL_CFLAGS := -DEG_DEBUGGER -D__STDINT_LIMITS -D_EG_ANDROID_PLATFORM -lstdc++
 
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2dx_static
 LOCAL_WHOLE_STATIC_LIBRARIES += cocosdenshion_static
@@ -43,7 +47,6 @@ $(call import-module,external/chipmunk)
 $(call import-module,cocos2dx)
 $(call import-module,extensions)
 
-$(call import-module,android/native_app_glue)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Common-c/android/src)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Common-c)
 $(call import-module,common-c-prebuilt)
@@ -55,7 +58,7 @@ $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Photon-c)
 $(call import-module,photon-c-prebuilt)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Photon-cpp/android/src)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Photon-cpp)
-#$(call import-module,photon-cpp-prebuilt)
-#$(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/LoadBalancing-cpp/android/src)
-#$(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/LoadBalancing-cpp)
-#$(call import-module,loadbalancing-cpp-prebuilt)
+$(call import-module,photon-cpp-prebuilt)
+$(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/LoadBalancing-cpp/android/src)
+$(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/LoadBalancing-cpp)
+$(call import-module,loadbalancing-cpp-prebuilt)

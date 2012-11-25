@@ -29,7 +29,7 @@ THE SOFTWARE.
 
 using namespace std;
 
-NS_CC_BEGIN;
+NS_CC_BEGIN
 
 static CCNotificationCenter *s_sharedNotifCenter = NULL;
 
@@ -131,8 +131,10 @@ void CCNotificationCenter::unregisterScriptObserver(void)
 
 void CCNotificationCenter::postNotification(const char *name, CCObject *object)
 {
+    CCArray* ObserversCopy = CCArray::createWithCapacity(m_observers->count());
+    ObserversCopy->addObjectsFromArray(m_observers);
     CCObject* obj = NULL;
-    CCARRAY_FOREACH(m_observers, obj)
+    CCARRAY_FOREACH(ObserversCopy, obj)
     {
         CCNotificationObserver* observer = (CCNotificationObserver*) obj;
         if (!observer)
@@ -212,4 +214,4 @@ CCObject *CCNotificationObserver::getObject()
     return m_object;
 }
 
-NS_CC_END;
+NS_CC_END

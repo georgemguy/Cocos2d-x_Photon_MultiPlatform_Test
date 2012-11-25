@@ -161,9 +161,15 @@
 		67522DE816438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE016438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a */; };
 		67522DE916438A3600A391F6 /* libPhoton-c_release_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE116438A3600A391F6 /* libPhoton-c_release_iphoneos.a */; };
 		67522DEA16438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67522DE216438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a */; };
+		6755BA3816586A4B00ECA83B /* CCChatRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6755BA3716586A4B00ECA83B /* CCChatRoom.cpp */; };
 		675A118D165212FF006E4B35 /* CCRoomTableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675A118C165212FE006E4B35 /* CCRoomTableCell.cpp */; };
-		675A119016521356006E4B35 /* CCLobbyTableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675A118F16521355006E4B35 /* CCLobbyTableCell.cpp */; };
+		6767C9AF165772AC00D73D44 /* CCControlConfirmMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6767C9AD165772AC00D73D44 /* CCControlConfirmMessage.cpp */; };
+		6767C9BA165773A700D73D44 /* CCRemoveFromParent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6767C9B4165773A100D73D44 /* CCRemoveFromParent.cpp */; };
+		6767C9BB165773A700D73D44 /* CCEnable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6767C9B6165773A200D73D44 /* CCEnable.cpp */; };
+		6767C9BC165773A700D73D44 /* CCRecursiveAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6767C9B8165773A400D73D44 /* CCRecursiveAction.cpp */; };
 		676823DB1647857B00EF1D53 /* ControlPhoton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 676823DA1647857B00EF1D53 /* ControlPhoton.cpp */; };
+		67B3A887165C8B1900DD09A5 /* CCChatTableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67B3A885165C8B1900DD09A5 /* CCChatTableCell.cpp */; };
+		67CD5B0A165B42E3002FF122 /* CCRoomInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67CD5B08165B42E2002FF122 /* CCRoomInfo.cpp */; };
 		67D34B4416462C7D0074041C /* PhotonTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B4216462C7D0074041C /* PhotonTest.cpp */; };
 		67D34B54164726F20074041C /* Photon_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B50164726F20074041C /* Photon_lib.cpp */; };
 		67D34B56164726F20074041C /* StdIO_UIListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D34B52164726F20074041C /* StdIO_UIListener.cpp */; };
@@ -603,12 +609,24 @@
 		67522DE016438A3600A391F6 /* libPhoton-c_debug_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_debug_iphonesimulator.a"; sourceTree = "<group>"; };
 		67522DE116438A3600A391F6 /* libPhoton-c_release_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_release_iphoneos.a"; sourceTree = "<group>"; };
 		67522DE216438A3600A391F6 /* libPhoton-c_release_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPhoton-c_release_iphonesimulator.a"; sourceTree = "<group>"; };
+		6755BA3316586A2400ECA83B /* CCChatRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChatRoom.h; sourceTree = "<group>"; };
+		6755BA3716586A4B00ECA83B /* CCChatRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCChatRoom.cpp; sourceTree = "<group>"; };
 		675A118B165212EE006E4B35 /* CCRoomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRoomTableCell.h; sourceTree = "<group>"; };
 		675A118C165212FE006E4B35 /* CCRoomTableCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRoomTableCell.cpp; sourceTree = "<group>"; };
-		675A118E1652133E006E4B35 /* CCLobbyTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLobbyTableCell.h; sourceTree = "<group>"; };
-		675A118F16521355006E4B35 /* CCLobbyTableCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLobbyTableCell.cpp; sourceTree = "<group>"; };
+		6767C9AD165772AC00D73D44 /* CCControlConfirmMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCControlConfirmMessage.cpp; sourceTree = "<group>"; };
+		6767C9AE165772AC00D73D44 /* CCControlConfirmMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlConfirmMessage.h; sourceTree = "<group>"; };
+		6767C9B4165773A100D73D44 /* CCRemoveFromParent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRemoveFromParent.cpp; sourceTree = "<group>"; };
+		6767C9B5165773A100D73D44 /* CCRemoveFromParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRemoveFromParent.h; sourceTree = "<group>"; };
+		6767C9B6165773A200D73D44 /* CCEnable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCEnable.cpp; sourceTree = "<group>"; };
+		6767C9B7165773A300D73D44 /* CCEnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEnable.h; sourceTree = "<group>"; };
+		6767C9B8165773A400D73D44 /* CCRecursiveAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRecursiveAction.cpp; sourceTree = "<group>"; };
+		6767C9B9165773A600D73D44 /* CCRecursiveAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecursiveAction.h; sourceTree = "<group>"; };
 		676823D9164781CF00EF1D53 /* ControlPhoton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlPhoton.h; sourceTree = "<group>"; };
 		676823DA1647857B00EF1D53 /* ControlPhoton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ControlPhoton.cpp; sourceTree = "<group>"; };
+		67B3A885165C8B1900DD09A5 /* CCChatTableCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCChatTableCell.cpp; sourceTree = "<group>"; };
+		67B3A886165C8B1900DD09A5 /* CCChatTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCChatTableCell.h; sourceTree = "<group>"; };
+		67CD5B08165B42E2002FF122 /* CCRoomInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRoomInfo.cpp; sourceTree = "<group>"; };
+		67CD5B09165B42E3002FF122 /* CCRoomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRoomInfo.h; sourceTree = "<group>"; };
 		67D34B4216462C7D0074041C /* PhotonTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhotonTest.cpp; sourceTree = "<group>"; };
 		67D34B4316462C7D0074041C /* PhotonTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotonTest.h; sourceTree = "<group>"; };
 		67D34B4C164726E20074041C /* Photon_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photon_lib.h; sourceTree = "<group>"; };
@@ -787,7 +805,6 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				674A90231653418C000A4D81 /* GGUtil.h */,
 				67EE6EB31651EB79005E1C24 /* PhotonLoadBalancingTest */,
 				67D34B4116462C200074041C /* PhotonTest */,
 				15AA9F3A15B7EF960033D6C2 /* AppDelegate.cpp */,
@@ -1199,6 +1216,7 @@
 				15AA9C2D15B7EBDF0033D6C2 /* cocos2dx.xcodeproj */,
 				15AA9DCC15B7EC960033D6C2 /* Box2D */,
 				15AA9E6715B7ECB00033D6C2 /* chipmunk */,
+				674A90231653418C000A4D81 /* GGUtil.h */,
 				15AA9C4015B7EC450033D6C2 /* Classes */,
 				15AA9D9E15B7EC7C0033D6C2 /* CocosDenshion */,
 				15AA9ED615B7EDCB0033D6C2 /* extensions */,
@@ -1455,6 +1473,14 @@
 		67EE6EB31651EB79005E1C24 /* PhotonLoadBalancingTest */ = {
 			isa = PBXGroup;
 			children = (
+				6767C9B4165773A100D73D44 /* CCRemoveFromParent.cpp */,
+				6767C9B5165773A100D73D44 /* CCRemoveFromParent.h */,
+				6767C9B6165773A200D73D44 /* CCEnable.cpp */,
+				6767C9B7165773A300D73D44 /* CCEnable.h */,
+				6767C9B8165773A400D73D44 /* CCRecursiveAction.cpp */,
+				6767C9B9165773A600D73D44 /* CCRecursiveAction.h */,
+				6767C9AD165772AC00D73D44 /* CCControlConfirmMessage.cpp */,
+				6767C9AE165772AC00D73D44 /* CCControlConfirmMessage.h */,
 				674A901D1652E7F2000A4D81 /* NetworkLogic.cpp */,
 				67EE6ED31651EC2B005E1C24 /* NetworkLogic.h */,
 				67EE6ED41651EC2B005E1C24 /* OutputListener.h */,
@@ -1466,8 +1492,12 @@
 				67EE6EBB1651EB79005E1C24 /* PhotonLoadBalancingTest.h */,
 				675A118B165212EE006E4B35 /* CCRoomTableCell.h */,
 				675A118C165212FE006E4B35 /* CCRoomTableCell.cpp */,
-				675A118E1652133E006E4B35 /* CCLobbyTableCell.h */,
-				675A118F16521355006E4B35 /* CCLobbyTableCell.cpp */,
+				6755BA3316586A2400ECA83B /* CCChatRoom.h */,
+				6755BA3716586A4B00ECA83B /* CCChatRoom.cpp */,
+				67CD5B08165B42E2002FF122 /* CCRoomInfo.cpp */,
+				67CD5B09165B42E3002FF122 /* CCRoomInfo.h */,
+				67B3A885165C8B1900DD09A5 /* CCChatTableCell.cpp */,
+				67B3A886165C8B1900DD09A5 /* CCChatTableCell.h */,
 			);
 			name = PhotonLoadBalancingTest;
 			path = ../Classes/PhotonLoadBalancingTest;
@@ -1904,8 +1934,14 @@
 				67EE6F051651ED66005E1C24 /* LoadBalancingPlayer.cpp in Sources */,
 				67EE6F061651ED66005E1C24 /* LoadBalancingRoom.cpp in Sources */,
 				675A118D165212FF006E4B35 /* CCRoomTableCell.cpp in Sources */,
-				675A119016521356006E4B35 /* CCLobbyTableCell.cpp in Sources */,
 				674A901E1652E7F2000A4D81 /* NetworkLogic.cpp in Sources */,
+				6767C9AF165772AC00D73D44 /* CCControlConfirmMessage.cpp in Sources */,
+				6767C9BA165773A700D73D44 /* CCRemoveFromParent.cpp in Sources */,
+				6767C9BB165773A700D73D44 /* CCEnable.cpp in Sources */,
+				6767C9BC165773A700D73D44 /* CCRecursiveAction.cpp in Sources */,
+				6755BA3816586A4B00ECA83B /* CCChatRoom.cpp in Sources */,
+				67CD5B0A165B42E3002FF122 /* CCRoomInfo.cpp in Sources */,
+				67B3A887165C8B1900DD09A5 /* CCChatTableCell.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

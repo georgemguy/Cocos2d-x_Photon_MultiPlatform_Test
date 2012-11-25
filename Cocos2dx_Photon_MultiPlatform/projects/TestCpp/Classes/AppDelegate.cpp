@@ -22,32 +22,18 @@ bool AppDelegate::applicationDidFinishLaunching()
     CCDirector *pDirector = CCDirector::sharedDirector();
     pDirector->setOpenGLView(CCEGLView::sharedOpenGLView());
 
-    TargetPlatform target = getTargetPlatform();
+    CCSize screenSize = CCEGLView::sharedOpenGLView()->getFrameSize();
     
-    if (target == kTargetIpad)
+    CCSize designSize = CCSizeMake(480, 320);
+    
+    if (screenSize.height > 320)
     {
-        // ipad
-
-        if (pDirector->enableRetinaDisplay(true))
-        {
-            // ipad hd
-            CCFileUtils::sharedFileUtils()->setResourceDirectory("ipadhd");
-        }
-        else 
-        {
-            CCFileUtils::sharedFileUtils()->setResourceDirectory("ipad");
-        }
+        CCSize resourceSize = CCSizeMake(960, 640);
+        CCFileUtils::sharedFileUtils()->setResourceDirectory("hd");
+        pDirector->setContentScaleFactor(resourceSize.height/designSize.height);
     }
-    else if (target == kTargetIphone)
-    {
-        // iphone
-        
-        if (pDirector->enableRetinaDisplay(true))
-        {
-            // iphone hd
-            CCFileUtils::sharedFileUtils()->setResourceDirectory("hd");
-        }
-    }
+    
+    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width, designSize.height, kResolutionNoBorder);
 
     // turn on display FPS
     pDirector->setDisplayStats(true);

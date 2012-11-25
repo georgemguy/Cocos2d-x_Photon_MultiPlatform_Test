@@ -13,16 +13,23 @@
 #include "CCNetworkLogic.h"
 #include "GGUtil.h"
 #include "CCRoomTableCell.h"
+//#include "CCChatRoom.h"
 
-class CCLobbyView : public cocos2d::CCLayer, public cocos2d::extension::CCTableViewDataSource, public cocos2d::extension::CCTableViewDelegate, public cocos2d::extension::CCEditBoxDelegate
+class CCLobbyViewDataSource;
+class CCLobbyView : public cocos2d::CCLayer, public cocos2d::extension::CCTableViewDelegate, public cocos2d::extension::CCEditBoxDelegate
 {
+    CCLobbyViewDataSource* _lobbyViewDataSource;
     CC_SYNTHESIZE_RETAIN( CCNetworkLogic*, _network, Network );
     CC_SYNTHESIZE_CHILD( cocos2d::CCLabelTTF*, _console, Console );
     CC_SYNTHESIZE_CHILD( cocos2d::extension::CCControlButton*, _connectButton, ConnectButton );
     CC_SYNTHESIZE_CHILD( cocos2d::extension::CCControlButton*, _createGameButton, CreateGameButton );
+    CC_SYNTHESIZE_CHILD( cocos2d::extension::CCControlButton*, _randomGameButton, RandomGameButton );
     CC_SYNTHESIZE_CHILD( cocos2d::extension::CCEditBox*, _editAddress, EditAddress );
     CC_SYNTHESIZE_CHILD( cocos2d::CCLabelTTF*, _displayAddress, DisplayAddress );
+    CC_SYNTHESIZE_CHILD( cocos2d::CCLabelTTF*, _roomTableLabel, RoomTableLabel );
     CC_SYNTHESIZE_CHILD( cocos2d::extension::CCTableView*, _roomTable, RoomTable );
+    //CC_SYNTHESIZE_CHILD( CCChatRoom*, _chatRoom, ChatRoom );
+    CC_SYNTHESIZE_RETAIN( cocos2d::extension::CCTableViewCell*, _lastCellTouched, LastCellTouched );
     
 public:
     CCLobbyView();
@@ -33,6 +40,7 @@ public:
     virtual void onExit();
     virtual void update( float delta );
     
+    virtual void joinGameButtonCallback( cocos2d::CCObject* sender );
     virtual void connectButtonCallback( cocos2d::CCObject* sender );
     virtual void createGameButtonCallback( cocos2d::CCObject* sender );
     
@@ -46,27 +54,7 @@ public:
     
     virtual void scrollViewDidScroll(cocos2d::extension::CCScrollView* view);
     virtual void scrollViewDidZoom(cocos2d::extension::CCScrollView* view);
-    
-    /**
-     * cell height for a given table.
-     *
-     * @param table table to hold the instances of Class
-     * @return cell size
-     */
-    virtual cocos2d::CCSize cellSizeForTable(cocos2d::extension::CCTableView *table);
-    /**
-     * a cell instance at a given index
-     *
-     * @param idx index to search for a cell
-     * @return cell found at idx
-     */
-    virtual cocos2d::extension::CCTableViewCell* tableCellAtIndex(cocos2d::extension::CCTableView *table, unsigned int idx);
-    /**
-     * Returns number of cells in a given table view.
-     *
-     * @return number of cells
-     */
-    virtual unsigned int numberOfCellsInTableView(cocos2d::extension::CCTableView *table);
+    virtual void joinRoom(cocos2d::CCObject* sender);
     
     /**
      * This method is called when an edit box gains focus after keyboard is shown.
@@ -93,6 +81,35 @@ public:
      * @param editBox The edit box object that generated the event.
      */
     virtual void editBoxReturn(cocos2d::extension::CCEditBox* editBox);
+};
+
+class CCLobbyViewDataSource : public cocos2d::extension::CCTableViewDataSource
+{
+    CCLobbyView* _lobbyView;
+public:
+    CCLobbyViewDataSource( CCLobbyView* lobbyView );
+
+    /**
+     * cell height for a given table.
+     *
+     * @param table table to hold the instances of Class
+     * @return cell size
+     */
+    virtual cocos2d::CCSize cellSizeForTable(cocos2d::extension::CCTableView *table);
+    /**
+     * a cell instance at a given index
+     *
+     * @param idx index to search for a cell
+     * @return cell found at idx
+     */
+    virtual cocos2d::extension::CCTableViewCell* tableCellAtIndex(cocos2d::extension::CCTableView *table, unsigned int idx);
+    /**
+     * Returns number of cells in a given table view.
+     *
+     * @return number of cells
+     */
+    virtual unsigned int numberOfCellsInTableView(cocos2d::extension::CCTableView *table);
+    
 };
 
 #endif

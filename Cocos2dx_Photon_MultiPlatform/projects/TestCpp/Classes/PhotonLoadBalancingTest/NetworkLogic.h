@@ -56,6 +56,16 @@ typedef enum _Input
 	INPUT_EXIT
 } Input;
 
+typedef enum _CustomEvents
+{
+	EVENT_MISC = 0,
+    EVENT_CHAT,
+} CustomEvents;
+
+typedef enum _ChatEventBytes
+{
+	CHATBYTE_STRING = 0
+} ChatEventBytes;
 
 
 class NetworkLogicListener : public ExitGames::Common::ToString
@@ -91,6 +101,10 @@ public:
     virtual void connect();
 	virtual void opCreateRoom(void);
 	virtual void opJoinRandomRoom(void);
+    virtual void opLeaveRoom(void);
+    virtual void opJoinRoom(const ExitGames::Common::JString &gameID);
+    virtual void customEventAction(int playerNr, nByte eventCode, const ExitGames::Common::Hashtable& eventContent);
+    virtual void opRaiseEvent(bool reliable, const ExitGames::Common::Hashtable &parameters, nByte eventCode);
 	virtual void disconnect(void);
 	virtual void sendEvent(void);
 
@@ -114,11 +128,10 @@ protected:
 	virtual void clientErrorReturn(int errorCode);
 	virtual void warningReturn(int warningCode);
 	virtual void serverErrorReturn(int errorCode);
-
+    
 	// events, triggered by certain operations of all players in the same room
 	virtual void joinRoomEventAction(int playerNr, const ExitGames::Common::JVector<int>& playernrs, const ExitGames::LoadBalancing::Player& player);
 	virtual void leaveRoomEventAction(int playerNr);
-	virtual void customEventAction(int playerNr, nByte eventCode, const ExitGames::Common::Hashtable& eventContent);
 
 	// callbacks for operations on PhotonLoadBalancing server
 	virtual void connectReturn(int errorCode, const ExitGames::Common::JString& errorString);

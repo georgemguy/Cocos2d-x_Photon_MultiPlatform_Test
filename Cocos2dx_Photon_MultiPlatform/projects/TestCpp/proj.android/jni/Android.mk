@@ -29,7 +29,6 @@ $(call import-module,extensions)
 $(call import-module,external/Box2D)
 $(call import-module,external/chipmunk)
 
-$(call import-module,android/native_app_glue)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Common-c/android/src)
 $(call import-add-path-optional, $(LOCAL_PHOTON_ROOT)/Common-c)
 $(call import-module,common-c-prebuilt)

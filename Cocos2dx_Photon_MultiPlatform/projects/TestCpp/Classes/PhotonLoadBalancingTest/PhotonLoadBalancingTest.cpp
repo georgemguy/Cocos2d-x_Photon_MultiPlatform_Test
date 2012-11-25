@@ -15,7 +15,7 @@ else if (_pos > _max)   \
 // PhotonLoadBalancingTest
 //
 //------------------------------------------------------------------
-PhotonLoadBalancingTest::PhotonLoadBalancingTest(void)
+PhotonLoadBalancingTest::PhotonLoadBalancingTest(void) : CCLayer()
 {
     this->_stateLabel = NULL;
 }
