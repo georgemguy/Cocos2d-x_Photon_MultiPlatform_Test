@@ -2,6 +2,8 @@
 #include "../testResource.h"
 #include "cocos2d.h"
 #include "ControlPhoton.h"
+#include "StdIO_UIListener.h"
+#include "Photon_lib.h"
 
 #define FIX_POS(_pos, _min, _max) \
     if (_pos < _min)        \
@@ -31,21 +33,21 @@ std::string PhotonTest::title()
     return "PhotonTest";
 }
 
-PhotonLib& PhotonTestScene::sharedPhotonLib()
+/*PhotonLib& PhotonTestScene::sharedPhotonLib()
 {
     CCDirector* director = CCDirector::sharedDirector();
     PhotonTestScene* scene = dynamic_cast<PhotonTestScene*>( director->getRunningScene() );
     
     CCAssert( scene, "PhotonTestScene::sharedPhotonLib() -- PhotonTest is not running" );
     return scene->getPhotonTest()->getPhotonLib();
-}
+}*/
 
 void PhotonTest::onEnter()
 {
     CCLayer::onEnter();
 
     CCSize winSize = CCDirector::sharedDirector()->getWinSize();
-    _listener = new StdIO_UIListener();
+    //_listener = new StdIO_UIListener();
     this->setContentSize(winSize);
     
     ConnectButton* connect = ConnectButton::create();
@@ -67,20 +69,20 @@ void PhotonTest::onExit()
 {
     CCLayer::onExit();
     
-    _listener->onLibClosed();
-    delete _listener;
+    //_listener->onLibClosed();
+    //delete _listener;
 }
 
-PhotonLib& PhotonTest::getPhotonLib()
+/*PhotonLib& PhotonTest::getPhotonLib()
 {
     return this->_photonLib;
-}
+}*/
 
 void PhotonTest::update(float delta)
 {
     CCLayer::update(delta);
     
-    static const float pause = 1.0f;
+    /*static const float pause = 1.0f;
     static float wait = pause;
     
     if( wait > 0.0f )
@@ -100,7 +102,7 @@ void PhotonTest::update(float delta)
     
     if( ! _stateLabel )
     {
-        _stateLabel = CCLabelTTF::create(cStr, "fonts/American Typewriter.ttf", 24,
+        _stateLabel = CCLabelTTF::create(cStr, f_AmericanTypewriter, 24,
                                      winSize, kCCTextAlignmentCenter, kCCVerticalTextAlignmentCenter);
         this->addChild( _stateLabel );
     }
@@ -110,7 +112,7 @@ void PhotonTest::update(float delta)
     }
     _stateLabel->setColor( ccc3(255, 255, 255) );
     _stateLabel->setContentSize(winSize);
-    _stateLabel->setPosition( ccpMult( ccpFromSize( winSize ), 0.5f ) );    
+    _stateLabel->setPosition( ccpMult( ccpFromSize( winSize ), 0.5f ) );*/
 }
 
 //------------------------------------------------------------------

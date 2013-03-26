@@ -337,21 +337,83 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/CCDrawingPrimitives.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/CCScheduler.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/support/data_support/uthash.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/GGUtil.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GGExtension/GGUtil.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/cocos-ext.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBFileLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBReader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBMemberVariableAssigner.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBReader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSelectorResolver.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlButtonLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlUtils.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlButton.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLabelBMFontLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLabelTTFLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerColorLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerGradientLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemImageLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoaderLibrary.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoaderListener.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCParticleSystemQuadLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScale9SpriteLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScale9SpriteLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScrollViewLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCScrollView/CCScrollView.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCSpriteLoader.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBAnimationManager.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequence.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBValue.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequenceProperty.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBKeyframe.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBKeyframe.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequence.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequenceProperty.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBValue.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCData.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNode+CCBRelativePositioning.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCScale9Sprite.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControl.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCInvocation.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlUtils.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlButton.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlColourPicker.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlUtils.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlHuePicker.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCInvocation.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlPotentiometer.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSlider.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlStepper.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCScrollView.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCTableView.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCScrollView.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCTableViewCell.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCSorting.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCEditBox/CCEditBox.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCEditBox/../CCControlExtension/CCControlExtensions.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpClient.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCEnable.h:
 
@@ -1027,25 +1089,123 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/support/data_support/uthash.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/GGUtil.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GGExtension/GGUtil.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/cocos-ext.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBFileLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBReader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBMemberVariableAssigner.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBReader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSelectorResolver.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlButtonLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlUtils.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlButton.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCControlLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLabelBMFontLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLabelTTFLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerColorLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerGradientLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCLayerLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemImageLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuItemLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCMenuLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoaderLibrary.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNodeLoaderListener.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCParticleSystemQuadLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScale9SpriteLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScale9SpriteLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCScrollViewLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/../GUI/CCScrollView/CCScrollView.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCSpriteLoader.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBAnimationManager.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequence.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBValue.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequenceProperty.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBKeyframe.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBKeyframe.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequence.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBSequenceProperty.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCBValue.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCData.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/CCBReader/CCNode+CCBRelativePositioning.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCScale9Sprite.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h:
-
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControl.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCInvocation.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlUtils.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlButton.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlColourPicker.h:
 
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlUtils.h:
+
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlHuePicker.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCInvocation.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h:
 
@@ -1056,3 +1216,29 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlStepper.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCScrollView.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCTableView.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCScrollView.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCTableViewCell.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCScrollView/CCSorting.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCEditBox/CCEditBox.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCEditBox/../CCControlExtension/CCControlExtensions.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpClient.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h:

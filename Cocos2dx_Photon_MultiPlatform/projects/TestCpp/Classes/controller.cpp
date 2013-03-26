@@ -14,14 +14,14 @@ static TestScene* CreateTestScene(int nIdx)
 
     switch (nIdx)
     {
-    case TEST_PHOTON:
-        pScene = new PhotonTestScene();
-        break;
-    case TEST_PHOTON_LOADBALANCING:
-        pScene = new PhotonLoadBalancingTestScene();
-        break;
-    default:
-        break;
+        case TEST_MESSAGE:
+            pScene = new MessageTestScene();
+            break;
+        case TEST_PHOTON_LOADBALANCING:
+            pScene = new PhotonLoadBalancingTestScene();
+            break;
+        default:
+            break;
     }
 
     return pScene;
@@ -45,7 +45,7 @@ TestController::TestController()
 // #if (CC_TARGET_PLATFORM == CC_PLATFORM_MARMALADE)
 //         CCLabelBMFont* label = CCLabelBMFont::create(g_aTestNames[i].c_str(),  "fonts/arial16.fnt");
 // #else
-        CCLabelTTF* label = CCLabelTTF::create(g_aTestNames[i].c_str(), "Arial", 24);
+        CCLabelTTF* label = CCLabelTTF::create(g_aTestNames[i].c_str(), "Arial", 16);
 // #endif        
         CCMenuItemLabel* pMenuItem = CCMenuItemLabel::create(label, this, menu_selector(TestController::menuCallback));
 

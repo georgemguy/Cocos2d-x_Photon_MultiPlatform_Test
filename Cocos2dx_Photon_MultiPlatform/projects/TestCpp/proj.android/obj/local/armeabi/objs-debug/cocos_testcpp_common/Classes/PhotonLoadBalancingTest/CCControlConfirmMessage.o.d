@@ -1,6 +1,6 @@
 obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTest/CCControlConfirmMessage.o: \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCControlConfirmMessage.cpp \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCRecursiveAction.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCControlConfirmMessage.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/include/cocos2d.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/include/ccConfig.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/platform/CCPlatformConfig.h \
@@ -337,8 +337,6 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/CCDrawingPrimitives.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/CCScheduler.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/support/data_support/uthash.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/GGUtil.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCControlConfirmMessage.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCScale9Sprite.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/ExtensionMacros.h \
@@ -352,11 +350,9 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlPotentiometer.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSlider.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlStepper.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCRemoveFromParent.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCEnable.h
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCRecursiveAction.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCControlConfirmMessage.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/include/cocos2d.h:
 
@@ -1030,10 +1026,6 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../cocos2dx/support/data_support/uthash.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/GGUtil.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCControlConfirmMessage.h:
-
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCScale9Sprite.h:
@@ -1061,7 +1053,3 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlStepper.h:
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCRemoveFromParent.h:
-
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCEnable.h:

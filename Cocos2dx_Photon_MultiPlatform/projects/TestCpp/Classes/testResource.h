@@ -39,5 +39,10 @@ static const char s_AtlasTest[]           = "Images/atlastest.png";
 static const char s_TilesPng[]            = "TileMaps/tiles.png";
 static const char s_LevelMapTga[]         = "TileMaps/levelmap.tga";
 
+#if( CC_TARGET_PLATFORM == CC_PLATFORM_IOS )
+static const char f_AmericanTypewriter[] = "American Typewriter";
+#else
+static const char f_AmericanTypewriter[] = "fonts/American Typewriter.ttf";
+#endif
 
 #endif

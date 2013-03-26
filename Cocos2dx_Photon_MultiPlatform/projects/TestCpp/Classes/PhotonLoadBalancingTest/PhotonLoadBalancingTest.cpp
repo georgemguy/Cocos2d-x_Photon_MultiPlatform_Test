@@ -1,6 +1,30 @@
+/****************************************************************************
+ Copyright (c) 2013 George Guy
+
+ 
+ http://www.cocos2d-x.org
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ ****************************************************************************/
+
 #include "PhotonLoadBalancingTest.h"
 #include "../testResource.h"
-#include "cocos2d.h"
 #include "CCLobbyView.h"
 
 #define FIX_POS(_pos, _min, _max) \
@@ -29,37 +53,16 @@ std::string PhotonLoadBalancingTest::title()
     return "PhotonLoadBalancingTest";
 }
 
-/*PhotonLib& PhotonLoadBalancingTestScene::sharedPhotonLib()
-{
-    CCDirector* director = CCDirector::sharedDirector();
-    PhotonLoadBalancingTestScene* scene = dynamic_cast<PhotonLoadBalancingTestScene*>( director->getRunningScene() );
-    
-    CCAssert( scene, "PhotonLoadBalancingTestScene::sharedPhotonLib() -- PhotonLoadBalancingTest is not running" );
-    return scene->getPhotonLoadBalancingTest()->getPhotonLib();
-}*/
-
 void PhotonLoadBalancingTest::onEnter()
 {
     CCLayer::onEnter();
 
     CCSize winSize = CCDirector::sharedDirector()->getWinSize();
     CCPoint winCenter = ccpMult( ccpFromSize( winSize ), 0.5f );
-    //_listener = new StdIO_UIListener();
     this->setContentSize(winSize);
     
-    CCLobbyView* lobbyView = CCLobbyView::create( new CCNetworkLogic(), winSize );
+    CCLobbyView* lobbyView = CCLobbyView::create( winSize );
     this->addChild( lobbyView );
-    /*ConnectButton* connect = ConnectButton::create();
-    CCPoint position = ccpMult( ccpFromSize( winSize ), 0.5f );
-    position.x -= 100;
-    position.y -= 100;
-    connect->setPosition( position );
-    this->addChild( connect );
-    
-    SendButton* send = SendButton::create();
-    position.x += 200;
-    send->setPosition( position );
-    this->addChild( send );*/
     
     this->scheduleUpdate();
 }
@@ -67,15 +70,7 @@ void PhotonLoadBalancingTest::onEnter()
 void PhotonLoadBalancingTest::onExit()
 {
     CCLayer::onExit();
-    
-    //_listener->onLibClosed();
-    //delete _listener;
 }
-
-/*PhotonLib& PhotonLoadBalancingTest::getPhotonLib()
-{
-    return this->_photonLib;
-}*/
 
 //------------------------------------------------------------------
 //

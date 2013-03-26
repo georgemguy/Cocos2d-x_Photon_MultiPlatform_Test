@@ -139,27 +139,27 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JString.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/data_structures.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platformLayer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/misc.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/eg_types.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/porting.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platform_definition.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JString.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/data_structures.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platformLayer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/misc.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/eg_types.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/porting.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platform_definition.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/wchar.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/assert.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/../include/assert.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/debug_assert.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ToString.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingListener.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonPeer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonListener.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonBaseListener.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/Photon.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonPlatformLayer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/debug_assert.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ToString.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingListener.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonPeer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonListener.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonBaseListener.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/Photon.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonPlatformLayer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/arpa/inet.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/netinet/in.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/endian.h \
@@ -177,64 +177,65 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/in6.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/linux/ipv6.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/netinet/in6.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/encryption/Encryption_general.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonConstants.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CPhotonPeer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationResponse.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/Callbacks.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CLitePeer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Common.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Dictionary.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/DictionaryBase.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Hashtable.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/KeyObject.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ConfirmAllowedKey.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/CompileTimeAssertTrue.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Object.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Base.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/BaseListener.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/TypeName.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/encryption/Encryption_general.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonConstants.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CPhotonPeer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationResponse.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/Callbacks.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CLitePeer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Common.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Dictionary.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/DictionaryBase.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Hashtable.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/KeyObject.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ConfirmAllowedKey.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/CompileTimeAssertTrue.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Object.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Base.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/BaseListener.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/TypeName.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/typeinfo \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_typeinfo.h \
  /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/../../gabi++/include/typeinfo \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ValueObject.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ConfirmAllowed.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/IsDerivedFrom.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomType.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomTypeBase.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomTypeFactory.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/RemoveConst.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Object.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JVector.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/IsPrimitiveType.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ToStringImplementation.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ObjectToStringConverter.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/PrimitiveToStringConverter.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JString.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/Utils.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Base.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/RemovePointer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/UTF8String.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/BaseCharString.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ANSIString.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/EGTime.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationResponse.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationResponse.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/EventData.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationRequest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingClient.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingRoom.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPlayer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPeer.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/Enums/ErrorCode.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/Enums/PeerStates.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingListener.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPlayer.h
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ValueObject.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ConfirmAllowed.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/IsDerivedFrom.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomType.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomTypeBase.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomTypeFactory.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/RemoveConst.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Object.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JVector.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/IsPrimitiveType.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ToStringImplementation.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ObjectToStringConverter.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/PrimitiveToStringConverter.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JString.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/Utils.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Base.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/RemovePointer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/UTF8String.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/BaseCharString.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ANSIString.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/EGTime.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationResponse.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationResponse.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/EventData.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationRequest.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingClient.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingRoom.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPlayer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPeer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/Enums/ErrorCode.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/Enums/PeerStates.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingListener.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPlayer.h \
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/PhotonKeys.h
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/NetworkLogic.h:
 
@@ -514,23 +515,23 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JString.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JString.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/data_structures.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/data_structures.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platformLayer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platformLayer.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/misc.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/misc.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/eg_types.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/eg_types.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/porting.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/porting.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platform_definition.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/platform_definition.h:
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/wchar.h:
 
@@ -538,23 +539,23 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/../include/assert.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/debug_assert.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/debug_assert.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ToString.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ToString.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingListener.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingListener.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonPeer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonPeer.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonListener.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonListener.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonBaseListener.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/PhotonBaseListener.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/Photon.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/Photon.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonPlatformLayer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonPlatformLayer.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/defines.h:
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/arpa/inet.h:
 
@@ -590,45 +591,45 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/platforms/android-8/arch-arm/usr/include/netinet/in6.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/encryption/Encryption_general.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/encryption/Encryption_general.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonConstants.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/PhotonConstants.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-c/inc/Constants.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CPhotonPeer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CPhotonPeer.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationResponse.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationResponse.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/Callbacks.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/Callbacks.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CLitePeer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CLitePeer.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Common.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Common.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Dictionary.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Dictionary.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/DictionaryBase.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/DictionaryBase.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Hashtable.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Hashtable.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/KeyObject.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/KeyObject.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ConfirmAllowedKey.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ConfirmAllowedKey.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/CompileTimeAssertTrue.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/CompileTimeAssertTrue.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Object.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Object.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Base.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Base.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/BaseListener.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/BaseListener.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/TypeName.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/TypeName.h:
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/typeinfo:
 
@@ -636,72 +637,74 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 
 /Users/georgeguy/Documents/AndroidDevelopment/android-ndk-r8b/sources/cxx-stl/stlport/stlport/../../gabi++/include/typeinfo:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ValueObject.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ValueObject.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ConfirmAllowed.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ConfirmAllowed.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/IsDerivedFrom.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/IsDerivedFrom.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomType.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomType.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomTypeBase.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomTypeBase.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomTypeFactory.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/CustomTypeFactory.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/RemoveConst.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/RemoveConst.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Object.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Object.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JVector.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JVector.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/IsPrimitiveType.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/IsPrimitiveType.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ToStringImplementation.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ToStringImplementation.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ObjectToStringConverter.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/ObjectToStringConverter.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/PrimitiveToStringConverter.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/PrimitiveToStringConverter.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JString.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/JString.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/Utils.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/Utils.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Base.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Base.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/RemovePointer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/Helpers/RemovePointer.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/UTF8String.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/UTF8String.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/BaseCharString.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/BaseCharString.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ANSIString.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/ANSIString.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/EGTime.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Common-cpp/inc/EGTime.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationResponse.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationResponse.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationResponse.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationResponse.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/EventData.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/EventData.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/CEventData.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationRequest.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../inc/OperationRequest.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/Photon-cpp/photon-cpp-prebuilt/../../Photon-c/inc/COperationRequest.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingClient.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingClient.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingRoom.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingRoom.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPlayer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPlayer.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPeer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPeer.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/Enums/ErrorCode.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/Enums/ErrorCode.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/Enums/PeerStates.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/Enums/PeerStates.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingListener.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingListener.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-0_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPlayer.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/../../Photon-AndroidNDK_v3-0-4-3_SDK/LoadBalancing-cpp/loadbalancing-cpp-prebuilt/../inc/LoadBalancingPlayer.h:
+
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/PhotonKeys.h:

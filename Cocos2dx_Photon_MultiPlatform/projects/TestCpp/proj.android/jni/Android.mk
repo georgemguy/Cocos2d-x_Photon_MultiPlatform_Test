@@ -8,7 +8,7 @@ LOCAL_MODULE_FILENAME := libtestcpp
 
 LOCAL_SRC_FILES := testcpp/main.cpp
 
-LOCAL_PHOTON_ROOT := $(LOCAL_PATH)/../../../../Photon-AndroidNDK_v3-0-4-0_SDK
+LOCAL_PHOTON_ROOT := $(LOCAL_PATH)/../../../../Photon-AndroidNDK_v3-0-4-3_SDK
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos_testcpp_common

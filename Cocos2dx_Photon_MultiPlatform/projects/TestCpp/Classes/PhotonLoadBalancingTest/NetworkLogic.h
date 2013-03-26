@@ -1,3 +1,28 @@
+/****************************************************************************
+ Copyright (c) 2010-2012 cocos2d-x.org
+ Copyright (c) 2013 George Guy
+ 
+ http://www.cocos2d-x.org
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ ****************************************************************************/
+
 #ifndef __NETWORK_LOGIC_H
 #define __NETWORK_LOGIC_H
 
@@ -34,6 +59,8 @@ typedef enum _State
 	STATE_JOINED,
     // The client has asked to join a game, but has not yet received a
     // response.
+    STATE_READY,
+    STATE_IN_GAME,
 	STATE_LEAVING,
     // The client has just left a room.
 	STATE_LEFT,
@@ -52,6 +79,7 @@ typedef enum _Input
     INPUT_CONNECT,
 	INPUT_CREATE_GAME,
 	INPUT_JOIN_RANDOM_GAME,
+    INPUT_DECLARE_READY,
 	INPUT_LEAVE_GAME,
 	INPUT_EXIT
 } Input;
@@ -60,6 +88,7 @@ typedef enum _CustomEvents
 {
 	EVENT_MISC = 0,
     EVENT_CHAT,
+    EVENT_DECLARE_READY,
 } CustomEvents;
 
 typedef enum _ChatEventBytes
@@ -99,7 +128,7 @@ public:
 	void registerForStateUpdates(NetworkLogicListener* listener);
 	virtual void run(void);
     virtual void connect();
-	virtual void opCreateRoom(void);
+	virtual void opCreateRoom();
 	virtual void opJoinRandomRoom(void);
     virtual void opLeaveRoom(void);
     virtual void opJoinRoom(const ExitGames::Common::JString &gameID);
@@ -107,14 +136,29 @@ public:
     virtual void opRaiseEvent(bool reliable, const ExitGames::Common::Hashtable &parameters, nByte eventCode);
 	virtual void disconnect(void);
 	virtual void sendEvent(void);
+    virtual unsigned int countMyGames();
+    virtual short getPeerId();
 
 	Input getLastInput(void) const;
 	void setLastInput(Input newInput);
 	State getState(void) const;
     virtual void setServerAddress( const char* address );
     virtual const ExitGames::Common::JVector<ExitGames::LoadBalancing::Room>& getRoomList();
+    
+    virtual ExitGames::LoadBalancing::Room* getRoomWithID( ExitGames::Common::JString gameID );
+    virtual ExitGames::LoadBalancing::MutableRoom& getCurrentRoom();
+    virtual ExitGames::Common::JString getUserName() = 0;
+    virtual bool allPlayersReady();
+    virtual int getCountPlayersInGame();
+    virtual bool getIsInGameRoom();
+    virtual ExitGames::LoadBalancing::MutableRoom& getCurrentlyJoinedRoom();
+    virtual void messageBox( const ExitGames::Common::JString& str ) = 0;
 
 protected:
+    unsigned int _readyPlayerChecklist;
+    
+    unsigned int _myGamesCount;
+    
 	//From Common::BaseListener
 	// receive and print out Photon datatypes debug out here
 	virtual void debugReturn(const ExitGames::Common::JString& string);
@@ -128,6 +172,7 @@ protected:
 	virtual void clientErrorReturn(int errorCode);
 	virtual void warningReturn(int warningCode);
 	virtual void serverErrorReturn(int errorCode);
+    virtual void checkReadyPlayer( unsigned int readyPlayer );
     
 	// events, triggered by certain operations of all players in the same room
 	virtual void joinRoomEventAction(int playerNr, const ExitGames::Common::JVector<int>& playernrs, const ExitGames::LoadBalancing::Player& player);
@@ -150,6 +195,8 @@ protected:
 	Input mLastInput;
 	OutputListener* mOutputListener;
     ExitGames::Common::JString mServerAddress;
+    ExitGames::Common::JString _gameID;
+    bool _isGameMaster;
 };
 
 #endif

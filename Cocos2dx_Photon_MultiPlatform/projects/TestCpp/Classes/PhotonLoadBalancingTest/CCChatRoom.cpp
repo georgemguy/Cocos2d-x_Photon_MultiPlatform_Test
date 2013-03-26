@@ -8,11 +8,10 @@
 
 #include "CCChatRoom.h"
 #include "CCChatTableCell.h"
-#include "CCRecursiveAction.h"
-#include "CCEnable.h"
 
 USING_NS_CC;
 USING_NS_CC_EXT;
+using namespace GGUtil;
 
 CCChatRoom::CCChatRoom() : CCLayer()
 {
@@ -292,11 +291,11 @@ void CCChatRoom::scrollViewDidZoom( cocos2d::extension::CCScrollView* view)
 void CCChatRoom::onEnter()
 {
     CCLayer::onEnter();
-    this->getParent()->runAction( CCRecursiveAction::create(CCEnable::create(false), this) );
+    CCRecursiveEnable( this->getParent(), false, this );
 }
 
 void CCChatRoom::onExit()
 {
-    this->getParent()->runAction( CCRecursiveAction::create(CCEnable::create(true), this) );
+    CCRecursiveEnable( this->getParent(), true, this );
     CCLayer::onExit();
 }

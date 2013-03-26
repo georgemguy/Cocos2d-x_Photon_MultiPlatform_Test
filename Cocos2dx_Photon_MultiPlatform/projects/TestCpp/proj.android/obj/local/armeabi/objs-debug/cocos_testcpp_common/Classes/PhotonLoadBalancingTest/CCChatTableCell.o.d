@@ -412,7 +412,7 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpRequest.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpClient.h \
  /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h \
- /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/GGUtil.h
+ /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GGExtension/GGUtil.h
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/CCChatTableCell.h:
 
@@ -1238,4 +1238,4 @@ obj/local/armeabi/objs-debug/cocos_testcpp_common/Classes/PhotonLoadBalancingTes
 
 /Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/network/HttpResponse.h:
 
-/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../projects/TestCpp/Classes/PhotonLoadBalancingTest/GGUtil.h:
+/Users/georgeguy/Documents/Cocos2dx_Photon_MultiPlatform/projects/TestCpp/proj.android/../../../extensions/GGExtension/GGUtil.h:

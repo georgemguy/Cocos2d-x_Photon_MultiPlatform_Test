@@ -2,16 +2,14 @@
 #define _PHOTON_TEST_H_
 
 #include "../testBasic.h"
-#include "StdIO_UIListener.h"
-#include "Photon_lib.h"
 
 USING_NS_CC;
 
 class PhotonTest: public CCLayer
 {
-    CC_SYNTHESIZE_READONLY(UIListener*, _listener, Listener);
+    //CC_SYNTHESIZE_READONLY(UIListener*, _listener, Listener);
     
-    PhotonLib _photonLib;
+    //PhotonLib _photonLib;
     
     CCLabelTTF* _stateLabel;
     
@@ -23,7 +21,7 @@ public:
     virtual void onEnter();
     virtual void onExit();
     virtual void update( float delta );
-    PhotonLib& getPhotonLib();
+    //PhotonLib& getPhotonLib();
 };
 
 class PhotonTestScene : public TestScene
@@ -32,7 +30,7 @@ class PhotonTestScene : public TestScene
     
 public:
     virtual void runThisTest();
-    static PhotonLib& sharedPhotonLib();
+    //static PhotonLib& sharedPhotonLib();
 };
 
 #endif

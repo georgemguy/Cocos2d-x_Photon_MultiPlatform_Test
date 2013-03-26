@@ -6,25 +6,19 @@ LOCAL_MODULE := cocos_testcpp_common
 
 LOCAL_MODULE_FILENAME := libtestcppcommon
 
-LOCAL_PHOTON_ROOT := $(LOCAL_PATH)/../../Photon-AndroidNDK_v3-0-4-0_SDK
+LOCAL_PHOTON_ROOT := $(LOCAL_PATH)/../../Photon-AndroidNDK_v3-0-4-3_SDK
 
 LOCAL_SRC_FILES := \
-Classes/PhotonTest/Photon_lib.cpp \
-Classes/PhotonTest/PhotonTest.cpp \
-Classes/PhotonTest/StdIO_UIListener.cpp \
-Classes/PhotonTest/ControlPhoton.cpp \
 Classes/PhotonLoadBalancingTest/NetworkLogic.cpp \
 Classes/PhotonLoadBalancingTest/CCLobbyView.cpp \
 Classes/PhotonLoadBalancingTest/CCNetworkLogic.cpp \
 Classes/PhotonLoadBalancingTest/PhotonLoadBalancingTest.cpp \
 Classes/PhotonLoadBalancingTest/CCRoomTableCell.cpp \
-Classes/PhotonLoadBalancingTest/CCControlConfirmMessage.cpp \
-Classes/PhotonLoadBalancingTest/CCChatRoom.cpp \
-Classes/PhotonLoadBalancingTest/CCChatTableCell.cpp \
-Classes/PhotonLoadBalancingTest/CCRoomInfo.cpp \
-Classes/PhotonLoadBalancingTest/CCRemoveFromParent.cpp \
-Classes/PhotonLoadBalancingTest/CCEnable.cpp \
-Classes/PhotonLoadBalancingTest/CCRecursiveAction.cpp \
+Classes/PhotonLoadBalancingTest/PhotonKeys.cpp \
+Classes/PhotonLoadBalancingTest/CCUserForm.cpp \
+Classes/MessageTest/CCConfirmMessage.cpp \
+Classes/MessageTest/CCControlAlertMessage.cpp \
+Classes/MessageTest/MessageTest.cpp \
 Classes/controller.cpp \
 Classes/testBasic.cpp \
 Classes/AppDelegate.cpp 

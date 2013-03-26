@@ -372,7 +372,7 @@ void CCScale9Sprite::setContentSize(const CCSize &size)
 void CCScale9Sprite::updatePositions()
 {
     CCSize size = this->m_tContentSize;
-
+    
     float sizableWidth = size.width - topLeft->getContentSize().width - topRight->getContentSize().width;
     float sizableHeight = size.height - topLeft->getContentSize().height - bottomRight->getContentSize().height;
     

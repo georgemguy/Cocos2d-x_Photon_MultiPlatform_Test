@@ -1,4 +1,30 @@
+/****************************************************************************
+ Copyright (c) 2010-2012 cocos2d-x.org
+ Copyright (c) 2013 George Guy
+ 
+ http://www.cocos2d-x.org
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ ****************************************************************************/
+
 #include "NetworkLogic.h"
+#include "PhotonKeys.h"
 
 #if defined _EG_MARMALADE_PLATFORM
 #	if defined I3D_ARCH_X86
@@ -34,8 +60,6 @@ ExitGames::Common::JString& NetworkLogicListener::toString(ExitGames::Common::JS
 {
 	return retStr;
 }
-
-
 
 State StateAccessor::getState(void) const
 {
@@ -89,6 +113,8 @@ NetworkLogic::NetworkLogic(OutputListener* listener, const char* appVersion)
 #	pragma warning(pop)
 #endif
 {
+    _readyPlayerChecklist = NULL;
+    _gameID = 0;
 	mStateAccessor.setState(STATE_INITIALIZED);
 	mLoadBalancingClient.setDebugOutputLevel(DEBUG_LEVEL_INFO);
 }
@@ -109,13 +135,64 @@ void NetworkLogic::disconnect(void)
 	mLoadBalancingClient.disconnect();
 }
 
-void NetworkLogic::opCreateRoom(void)
+ExitGames::LoadBalancing::Room* NetworkLogic::getRoomWithID( ExitGames::Common::JString gameID )
+{
+    ExitGames::Common::JVector<Room> roomList = this->getRoomList();
+    Room* room = NULL;
+    
+    for( unsigned int i = 0; i < roomList.getSize(); i++ )
+    {
+        room = &roomList.getElementAt( i );
+        if( room->getName() == gameID )
+        {
+            break;
+        }
+    }
+    
+    return room;
+}
+
+ExitGames::LoadBalancing::MutableRoom& NetworkLogic::getCurrentRoom()
+{
+    return mLoadBalancingClient.getCurrentlyJoinedRoom();
+}
+
+ExitGames::LoadBalancing::MutableRoom& NetworkLogic::getCurrentlyJoinedRoom()
+{
+    return mLoadBalancingClient.getCurrentlyJoinedRoom();
+}
+
+short NetworkLogic::getPeerId()
+{
+    return this->mLoadBalancingClient.getPeerId();
+}
+
+int NetworkLogic::getCountPlayersInGame()
+{
+    return this->mLoadBalancingClient.getCountPlayersIngame();
+}
+
+bool NetworkLogic::getIsInGameRoom()
+{
+    return this->mLoadBalancingClient.getIsInGameRoom();
+}
+
+void NetworkLogic::opCreateRoom()
 {
 	// if last digits are always nearly the same, this is because of the timer calling this function being triggered every x ms with x being a factor of 10
-	ExitGames::Common::JString tmp;
-	mLoadBalancingClient.opCreateRoom(tmp=(int)GETTIMEMS());
+    char id[64] = { '\0' };
+    sprintf( id, "%u", GETTIMEMS() );
+    _gameID = id;
+    
+    Hashtable roomProperties = Hashtable();
+    int peerID = this->getPeerId();
+    
+    Hashtable playerProperties = Hashtable();
+    
+    JVector<JString> publicRoomProperties = JVector<JString>();
+    
 	mStateAccessor.setState(STATE_JOINING);
-	mOutputListener->writeLine(ExitGames::Common::JString(L"creating game \"") + tmp + L"\"");
+	mOutputListener->writeLine(ExitGames::Common::JString(L"creating game \"") + _gameID + L"\"");
 }
 
 void NetworkLogic::opJoinRandomRoom(void)
@@ -156,6 +233,13 @@ void NetworkLogic::run(void)
     {
         mStateAccessor.setState( STATE_CONNECTING );
     }
+    else if( mLastInput == INPUT_DECLARE_READY && mStateAccessor.getState() == STATE_JOINED )
+    {
+        Hashtable* hash = new Hashtable();
+        hash->put<int,int>( (int) PhotonHashKey::int_PeerId, this->getPeerId() );
+        opRaiseEvent( true, *hash, EVENT_DECLARE_READY);
+        mStateAccessor.setState( STATE_READY );
+    }
     else
 	{
 		State state = mStateAccessor.getState();
@@ -180,7 +264,7 @@ void NetworkLogic::run(void)
 			case INPUT_CREATE_GAME: // create Game
 				opCreateRoom();
                 //this->setLastInput( INPUT_JOIN_RANDOM_GAME );
-				//break;
+				break;
 			case INPUT_JOIN_RANDOM_GAME: // join Game
 				opJoinRandomRoom();
 				mStateAccessor.setState(STATE_JOINING);
@@ -206,6 +290,10 @@ void NetworkLogic::run(void)
 				break;
 			}
 			break;
+        case STATE_READY:
+            break;
+        case STATE_IN_GAME:
+            break;
 		case STATE_LEAVING:
             opLeaveRoom();
 			break; // wait for callback
@@ -283,6 +371,11 @@ void NetworkLogic::leaveRoomEventAction(int playerNr)
 	mOutputListener->writeLine(ExitGames::Common::JString(L"player ") + playerNr + " has left the game");
 }
 
+void NetworkLogic::checkReadyPlayer( unsigned int readyPlayer )
+{
+    this->_readyPlayerChecklist |= 1 >> readyPlayer;
+}
+
 void NetworkLogic::customEventAction(int playerNr, nByte eventCode, const ExitGames::Common::Hashtable& eventContent)
 {
 	// you do not receive your own events, unless you specify yourself as one of the receivers explicitly, so you must start 2 clients, to receive the events, which you have sent, as sendEvent() uses the default receivers of opRaiseEvent() (all players in same room like the sender, except the sender itself)
@@ -292,15 +385,42 @@ void NetworkLogic::customEventAction(int playerNr, nByte eventCode, const ExitGa
     {
         case EVENT_CHAT:
             mOutputListener->write(L"chat event receieved");
-            
+            break;
+        case EVENT_DECLARE_READY:
+            {
+                unsigned int readyPlayer = ValueObject<int>( eventContent.getValue( (int) PhotonHashKey::int_PeerId ) ).getDataCopy();
+                this->checkReadyPlayer( readyPlayer );
+                mOutputListener->write(L"ready event receieved");
+            }
             break;
         default:
-            break;
+            return;
     }
     char code[2] = { '\0' };
     sprintf( code, "%d", eventCode );
     mOutputListener->write( code );
 
+}
+
+bool NetworkLogic::allPlayersReady()
+{
+    unsigned int checklist = this->_readyPlayerChecklist;
+    switch( this->mLoadBalancingClient.getCountPlayersIngame() )
+    {
+        case 2:
+            return checklist == 0x3;
+        case 3:
+            return checklist == 0x7;
+        case 4:
+            return checklist == 0xf;
+        default:
+            return false;
+    }
+}
+
+unsigned int NetworkLogic::countMyGames()
+{
+    return this->_myGamesCount;
 }
 
 void NetworkLogic::connectReturn(int errorCode, const ExitGames::Common::JString& errorString)
@@ -316,6 +436,7 @@ void NetworkLogic::connectReturn(int errorCode, const ExitGames::Common::JString
 	mStateAccessor.setState(STATE_CONNECTED);
     
     mLoadBalancingClient.opJoinLobby();
+    mOutputListener->notify( PhotonNoteKey::ConnectReturn );
 }
 
 void NetworkLogic::disconnectReturn(void)
@@ -323,6 +444,7 @@ void NetworkLogic::disconnectReturn(void)
 	PhotonPeer_sendDebugOutput(&mLoadBalancingClient, DEBUG_LEVEL_INFO, L"");
 	mOutputListener->writeLine(L"disconnected");
 	mStateAccessor.setState(STATE_DISCONNECTED);
+    mOutputListener->notify( PhotonNoteKey::DisconnectReturn );
 }
 
 void NetworkLogic::createRoomReturn(int localPlayerNr, const ExitGames::Common::Hashtable& gameProperties, const ExitGames::Common::Hashtable& playerProperties, int errorCode, const ExitGames::Common::JString& errorString)
@@ -339,6 +461,7 @@ void NetworkLogic::createRoomReturn(int localPlayerNr, const ExitGames::Common::
 	mOutputListener->writeLine(L"game room \"" + mLoadBalancingClient.getCurrentlyJoinedRoom().getName() + "\" has been created");
 	mOutputListener->writeLine(L"regularly sending dummy events now");
 	mStateAccessor.setState(STATE_JOINED);
+    mOutputListener->notify( PhotonNoteKey::CreateRoomReturn );
 }
 
 void NetworkLogic::joinRoomReturn(int localPlayerNr, const ExitGames::Common::Hashtable& gameProperties, const ExitGames::Common::Hashtable& playerProperties, int errorCode, const ExitGames::Common::JString& errorString)
@@ -355,6 +478,8 @@ void NetworkLogic::joinRoomReturn(int localPlayerNr, const ExitGames::Common::Ha
 	mOutputListener->writeLine(L"game room \"" + mLoadBalancingClient.getCurrentlyJoinedRoom().getName() + "\" has been successfully joined");
 	mOutputListener->writeLine(L"regularly sending dummy events now");
 	mStateAccessor.setState(STATE_JOINED);
+    mOutputListener->notify( PhotonNoteKey::JoinRoomReturn );
+    mOutputListener->notify( PhotonNoteKey::JoinSpecificRoomReturn );
 }
 
 void NetworkLogic::joinRandomRoomReturn(int localPlayerNr, const ExitGames::Common::Hashtable& gameProperties, const ExitGames::Common::Hashtable& playerProperties, int errorCode, const ExitGames::Common::JString& errorString)
@@ -371,6 +496,8 @@ void NetworkLogic::joinRandomRoomReturn(int localPlayerNr, const ExitGames::Comm
 	mOutputListener->writeLine(L"game room \"" + mLoadBalancingClient.getCurrentlyJoinedRoom().getName() + "\" has been successfully joined");
 	mOutputListener->writeLine(L"regularly sending dummy events now");
 	mStateAccessor.setState(STATE_JOINED);
+    mOutputListener->notify( PhotonNoteKey::JoinRoomReturn );
+    mOutputListener->notify( PhotonNoteKey::JoinRandomRoomReturn );
 }
 
 void NetworkLogic::leaveRoomReturn(int errorCode, const ExitGames::Common::JString& errorString)
@@ -385,6 +512,7 @@ void NetworkLogic::leaveRoomReturn(int errorCode, const ExitGames::Common::JStri
 	}
 	mOutputListener->writeLine(L"game room has been successfully left");
 	mStateAccessor.setState(STATE_LEFT);
+    mOutputListener->notify( PhotonNoteKey::LeaveRoomReturn );
 }
 
 void NetworkLogic::gotQueuedReturn(void)
@@ -397,11 +525,13 @@ void NetworkLogic::joinLobbyReturn(void)
 	PhotonPeer_sendDebugOutput(&mLoadBalancingClient, DEBUG_LEVEL_INFO, L"");
 	mOutputListener->writeLine(L"joined lobby");
     
-
+    mOutputListener->notify( PhotonNoteKey::JoinLobbyReturn );
 }
 
 void NetworkLogic::leaveLobbyReturn(void)
 {
 	PhotonPeer_sendDebugOutput(&mLoadBalancingClient, DEBUG_LEVEL_INFO, L"");
 	mOutputListener->writeLine(L"left lobby");
+    
+    mOutputListener->notify( PhotonNoteKey::LeaveLobbyReturn );
 }

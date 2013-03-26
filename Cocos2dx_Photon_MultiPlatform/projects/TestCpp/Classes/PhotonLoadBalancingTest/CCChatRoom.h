@@ -10,18 +10,17 @@
 #define TestCpp_CCChatRoom_h
 
 #include "cocos-ext.h"
-#include "GGUtil.h"
 #include "CCNetworkLogic.h"
 
 class CCChatRoomDataSource;
 class CCChatRoom : public cocos2d::CCLayer, public cocos2d::extension::CCEditBoxDelegate, public cocos2d::extension::CCTableViewDelegate
 {
     CC_SYNTHESIZE_RETAIN( CCNetworkLogic*, _network, Network );
-    CC_SYNTHESIZE_CHILD( cocos2d::CCLabelTTF* , _lastSentLabel, LastSentLabel );
+    /*CC_SYNTHESIZE_CHILD( cocos2d::CCLabelTTF* , _lastSentLabel, LastSentLabel );
     CC_SYNTHESIZE_CHILD( cocos2d::CCLabelTTF* , _lastReceivedLabel, LastReceivedLabel );
     CC_SYNTHESIZE_CHILD( cocos2d::extension::CCEditBox* , _editBox, EditBox );
     CC_SYNTHESIZE_CHILD( cocos2d::extension::CCControlButton*, _exitButton, ExitButton );
-    CC_SYNTHESIZE_CHILD( cocos2d::extension::CCTableView*, _chatTable, ChatTable );
+    CC_SYNTHESIZE_CHILD( cocos2d::extension::CCTableView*, _chatTable, ChatTable );*/
     CC_SYNTHESIZE_READONLY( CCChatRoomDataSource*, _chatRoomDataSource, ChatRoomDataSource );
     
 public:
